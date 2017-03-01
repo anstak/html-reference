@@ -36,7 +36,7 @@ route: index
     <meta name="twitter:description" content="{{site.description}}">
 
     {% include favicons.html %}
-    <?php wp_head(); ?>
+    <?php //wp_head(); ?>
   </head>
   
   
