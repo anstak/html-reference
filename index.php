@@ -2,6 +2,14 @@
 route: index
 ---
 
+
+<?php
+  define('WP_USE_THEMES', true);
+  require($_SERVER['DOCUMENT_ROOT'].'/wp-load.php');
+/** Loads the WordPress Environment and Template */
+//require( dirname( __FILE__ ) . '/../wp-blog-header.php' );
+?>
+
 <!DOCTYPE html>
 <html class="is-index" data-template="index">
   <head>
@@ -28,8 +36,21 @@ route: index
     <meta name="twitter:description" content="{{site.description}}">
 
     {% include favicons.html %}
+    <?php wp_head(); ?>
   </head>
+  
+  
+  <?php
+    //use Roots\Sage\Setup;
+    //use Roots\Sage\Wrapper;
+  ?>
+
   <body>
+    <?php
+      do_action('get_header');
+      get_template_part('templates/header');
+    ?>
+    
     <header class="header">
       <div class="container">
         <h1 class="header-figure">
