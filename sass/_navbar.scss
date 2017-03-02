@@ -9,7 +9,12 @@
   width: 100%;
   top: 0;
   left: 0;
-
+  line-height: 1.8;
+  font-weight: 600;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	a {
+		color: #000;
+	}
 	// Topbar
 	.topbar {
 		position: relative;
@@ -267,7 +272,7 @@
 	}
 
 	// Stuck Navigation
-	&.stuck, .body-stuck & {
+	&.stuck, .htmlref & {
 		position: fixed;
 		top: 0;
 		left: 0;

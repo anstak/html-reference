@@ -45,37 +45,12 @@ route: index
     //use Roots\Sage\Wrapper;
   ?>
 
-  <body>
+  <body class="htmlref">
     <?php
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    
-    <header class="header">
-      <div class="container">
-        <h1 class="header-figure">
-          <img src="{{site.url}}/images/html-reference-icon.png" alt="{{site.title}} icon">
-          <img src="{{site.url}}/images/html-reference-type.png" alt="{{site.title}} type">
-        </h1>
-        <div class="header-content">
-          <div class="header-carbon">
-            {% include carbon.html %}
-          </div>
-          <div class="header-text">
-            <h2 class="header-title">
-              {{site.subtitle}}
-            </h2>
-            <p class="header-subtitle">
-              <strong>Learn by example</strong>: <a href="{{site.url}}">htmlreference.io</a> is a free guide to HTML. It features all <strong>elements</strong> and <strong>attributes</strong>.
-            </p>
-            <footer class="header-share">
-              {% include social/button-twitter.html %}
-              {% include social/button-facebook.html %}
-            </footer>
-          </div>
-        </div>
-      </div>
-    </header>
+
     <main class="index">
       <div class="index-collections">
         <div class="container">

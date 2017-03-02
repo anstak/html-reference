@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
           if ($target) {
             $target.scrollIntoView();
           } else {
-            window.location = window.location.origin + '/element/' + elementName;
+            window.location = window.location.origin + '/htmlref/element/' + elementName;
           }
         }
         break;
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if ($target) {
         $target.scrollIntoView();
       } else {
-        window.location = window.location.origin + '/element/' + elementName;
+        window.location = window.location.origin + '/htmlref/element/' + elementName;
       }
     });
   });

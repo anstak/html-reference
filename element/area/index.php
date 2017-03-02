@@ -37,7 +37,7 @@ elementName: area
           <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#area-example-0-code">Copy</a>
         </p>
         <article class="example-preview">
-            <div class="example-output"><img src="/images/world-continents.png" width="320" height="160" orgwidth="320" orgheight="160" usemap="#world-continents">
+            <div class="example-output"><img src="{{site.url}}/images/world-continents.png" width="320" height="160" orgwidth="320" orgheight="160" usemap="#world-continents">
 <map name="world-continents">
   <area title="North America" href="https://en.wikipedia.org/wiki/North_America" shape="poly" coords="48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69">
   <area title="South America" href="https://en.wikipedia.org/wiki/South_America" shape="poly" coords="48,88,61,74,119,99,95,160,66,159">
@@ -47,7 +47,7 @@ elementName: area
   <area title="Australia" href="https://en.wikipedia.org/wiki/Australia_(continent)" shape="poly" coords="257,107,263,85,314,89,316,137,294,151,249,132,248,114">
 </map>
 </div>
-          <div id="area-example-0-code" class="example-code">{% highlight html %}<img src="/images/world-continents.png" width="320" height="160" orgwidth="320" orgheight="160" usemap="#world-continents">
+          <div id="area-example-0-code" class="example-code">{% highlight html %}<img src="{{site.url}}/images/world-continents.png" width="320" height="160" orgwidth="320" orgheight="160" usemap="#world-continents">
 <map name="world-continents">
   <area title="North America" href="https://en.wikipedia.org/wiki/North_America" shape="poly" coords="48,89,67,69,77,49,140,0,68,0,6,10,4,31,16,69">
   <area title="South America" href="https://en.wikipedia.org/wiki/South_America" shape="poly" coords="48,88,61,74,119,99,95,160,66,159">

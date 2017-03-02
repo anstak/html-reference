@@ -1,3 +1,11 @@
+<?php
+  define('WP_USE_THEMES', true);
+  require($_SERVER['DOCUMENT_ROOT'].'/wp-load.php');
+/** Loads the WordPress Environment and Template */
+//require( dirname( __FILE__ ) . '/../wp-blog-header.php' );
+?>
+
+
 <!DOCTYPE html>
 <html class="is-collection" data-template="collection">
   <head>
@@ -26,7 +34,11 @@
 
     {% include favicons.html %}
   </head>
-  <body>
+  <body class="htmlref">
+    <?php
+      do_action('get_header');
+      get_template_part('templates/header');
+    ?>       
     {% include menu.html %}
     <main class="collection">
       <header class="heading">

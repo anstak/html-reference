@@ -37,8 +37,8 @@ elementName: img
           <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#img-example-0-code">Copy</a>
         </p>
         <article class="example-preview">
-            <div class="example-output"><img src="/images/sunset.jpg" alt="Picture of a Ha Long Bay sunset"></div>
-          <div id="img-example-0-code" class="example-code">{% highlight html %}<img src="/images/sunset.jpg" alt="Picture of a Ha Long Bay sunset">{% endhighlight %}</div>
+            <div class="example-output"><img src="{{site.url}}/images/sunset.jpg" alt="Picture of a Ha Long Bay sunset"></div>
+          <div id="img-example-0-code" class="example-code">{% highlight html %}<img src="{{site.url}}/images/sunset.jpg" alt="Picture of a Ha Long Bay sunset">{% endhighlight %}</div>
         </article>
       </div>
       <div id="img-example-1" class="example">
@@ -49,7 +49,7 @@ elementName: img
         <article class="example-preview">
             <div class="example-output"><!-- For responsive images, use srcset and sizes -->
 
-<img src="/images/sunset-360.jpg"
+<img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
   srcset="/images/sunset-360.jpg 360w,
           /images/sunset-720.jpg 720w,
@@ -57,7 +57,7 @@ elementName: img
   sizes="(min-width: 800px) 720px, 360px"></div>
           <div id="img-example-1-code" class="example-code">{% highlight html %}<!-- For responsive images, use srcset and sizes -->
 
-<img src="/images/sunset-360.jpg"
+<img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
   srcset="/images/sunset-360.jpg 360w,
           /images/sunset-720.jpg 720w,
@@ -94,7 +94,7 @@ elementName: img
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><img  src="/images/tiramisu.jpg"></img></div>
+              <div class="value-output"><img  src="{{site.url}}/images/tiramisu.jpg"></img></div>
             </aside>
           </article>
           <article id="img-src-siteurlimagestrafficjpg" class="value">
@@ -143,7 +143,7 @@ elementName: img
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><img  src="/images/boat.jpg" alt="Picture of a man standing in front of the Dragon's Pearl boat"></img></div>
+              <div class="value-output"><img  src="{{site.url}}/images/boat.jpg" alt="Picture of a man standing in front of the Dragon's Pearl boat"></img></div>
             </aside>
           </article>
       </div>
@@ -173,7 +173,7 @@ elementName: img
                 <p>You can define a <strong>pixel density descriptor</strong> like <code>2x</code>. In this case, <code>sunset-@2x.jpg</code> is <em>720px</em> wide.</p>
 
 {% highlight html %}
-<img src="/images/sunset.jpg"
+<img src="{{site.url}}/images/sunset.jpg"
      srcset="/images/sunset-@2x.jpg 2x"
      alt="Picture of a Ha Long Bay sunset">
 {% endhighlight %}
@@ -182,7 +182,7 @@ elementName: img
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><img src="/images/sunset.jpg"
+              <div class="value-output"><img src="{{site.url}}/images/sunset.jpg"
      srcset="/images/sunset-@2x.jpg 2x"
      alt="Picture of a Ha Long Bay sunset"></div>
             </aside>
@@ -198,7 +198,7 @@ elementName: img
                 <p>You can use a <strong>width descriptor</strong> like <code>360w</code>. This value is divided by one of the source sizes (defined in the <code>sizes</code> attribute) to obtain the <strong>pixel density</strong>.</p>
 
 {% highlight html %}
-<img src="/images/sunset-360.jpg"
+<img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
   srcset="/images/sunset-360.jpg 360w,
           /images/sunset-720.jpg 720w,
@@ -209,7 +209,7 @@ elementName: img
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><img src="/images/sunset-360.jpg"
+              <div class="value-output"><img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
   srcset="/images/sunset-360.jpg 360w,
           /images/sunset-720.jpg 720w,
@@ -244,7 +244,7 @@ elementName: img
                 <p>The browser will use the <code>1440px</code> image (defined in <code>srcset</code>) if the viewport is larger than 800px.<br>It will use the <code>720px</code> otherwise.</p>
 
 {% highlight html %}
-<img src="/images/sunset-360.jpg"
+<img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
   srcset="/images/sunset-360.jpg 360w,
           /images/sunset-720.jpg 720w,
@@ -255,7 +255,7 @@ elementName: img
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><img src="/images/sunset-360.jpg"
+              <div class="value-output"><img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
   srcset="/images/sunset-360.jpg 360w,
           /images/sunset-720.jpg 720w,
@@ -292,7 +292,7 @@ elementName: img
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><img  src="/images/boat.jpg" height="240"></img></div>
+              <div class="value-output"><img  src="{{site.url}}/images/boat.jpg" height="240"></img></div>
             </aside>
           </article>
       </div>
@@ -324,7 +324,7 @@ elementName: img
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><img  src="/images/boat.jpg" width="120"></img></div>
+              <div class="value-output"><img  src="{{site.url}}/images/boat.jpg" width="120"></img></div>
             </aside>
           </article>
       </div>
