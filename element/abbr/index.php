@@ -7,17 +7,17 @@ elementName: abbr
   <header class="element-header">
     <nav class="element-links">
         <span>
-          Type: <strong>inline</strong>
+          Тип: <strong>inline</strong>
         </span>
       <span>
-        Self-closing:
+        Самозакрывающийся:
         <strong>
-            No
+            Нет
         </strong>
       </span>
-      <a class="element-links-direct" href="{{site.url}}/element/abbr/" data-element-name="abbr" data-tooltip="Single page for this element">Permalink</a>
-      <a class="element-share" data-tooltip="Share on Twitter or Facebook" data-element-name="abbr">Share</a>
-      <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/abbr" data-tooltip="See on Mozilla Developer Network" rel="external">MDN</a>
+      <a class="element-links-direct" href="{{site.url}}/element/abbr/" data-element-name="abbr" data-tooltip="Ссылка на отдельную страницу с тегом">Ссылка</a>
+      <a class="element-share" data-tooltip="Поделиться в соц. сетях" data-element-name="abbr">Поделиться</a>
+      <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/abbr" data-tooltip="Посмотреть в Mozilla Developer Network" rel="external">MDN</a>
     </nav>
     <h2 class="element-name">
       <a href="#abbr">

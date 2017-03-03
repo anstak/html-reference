@@ -7,17 +7,17 @@ elementName: a
   <header class="element-header">
     <nav class="element-links">
         <span>
-          Type: <strong>inline</strong>
+          Тип: <strong>inline</strong>
         </span>
       <span>
-        Self-closing:
+        Самозакрывающийся:
         <strong>
-            No
+            Нет
         </strong>
       </span>
-      <a class="element-links-direct" href="{{site.url}}/element/a/" data-element-name="a" data-tooltip="Single page for this element">Permalink</a>
-      <a class="element-share" data-tooltip="Share on Twitter or Facebook" data-element-name="a">Share</a>
-      <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/a" data-tooltip="See on Mozilla Developer Network" rel="external">MDN</a>
+      <a class="element-links-direct" href="{{site.url}}/element/a/" data-element-name="a" data-tooltip="Ссылка на отдельную страницу с тегом">Ссылка</a>
+      <a class="element-share" data-tooltip="Поделиться в соц. сетях" data-element-name="a">Поделиться</a>
+      <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/a" data-tooltip="Посмотреть в Mozilla Developer Network" rel="external">MDN</a>
     </nav>
     <h2 class="element-name">
       <a href="#a">
@@ -33,12 +33,12 @@ elementName: a
 
       <div id="a-example-0" class="example">
         <p class="example-label">
-          <strong>Example:</strong>
+          <strong>Пример:</strong>
           <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#a-example-0-code">Copy</a>
         </p>
         <article class="example-preview">
-            <div class="example-output"><a href="http://htmlreference.io">HTML Reference</a></div>
-          <div id="a-example-0-code" class="example-code">{% highlight html %}<a href="http://htmlreference.io">HTML Reference</a>{% endhighlight %}</div>
+            <div class="example-output"><a href="https://atomcss.ru">HTML Ссылка</a></div>
+          <div id="a-example-0-code" class="example-code">{% highlight html %}<a href="https://atomcss.ru">HTML Ссылка</a>{% endhighlight %}</div>
         </article>
       </div>
 
@@ -55,8 +55,8 @@ href
 </div>
 </header>
 <div class="attribute-values"><article id="a-href-httphtmlreferenceio" class="value"><header class="value-header">
-<h4 class="value-name"><code class="tag" data-tooltip="Click to copy href=&quot;http://htmlreference.io&quot;" data-clipboard-text="href=&quot;http://htmlreference.io&quot;">
-"http://htmlreference.io"
+<h4 class="value-name"><code class="tag" data-tooltip="Click to copy href=&quot;https://atomcss.ru&quot;" data-clipboard-text="href=&quot;https://atomcss.ru&quot;">
+"https://atomcss.ru"
 </code></h4>
 <div class="value-description">
 
@@ -64,7 +64,7 @@ href
 
 </div>
 </header><aside class="value-preview">
-<div class="value-output"><a href="http://htmlreference.io">HTML Ссылка</a></div>
+<div class="value-output"><a href="https://atomcss.ru">HTML Ссылка</a></div>
 </aside></article><article id="a-href-elementdiv" class="value"><header class="value-header">
 <h4 class="value-name"><code class="tag" data-tooltip="Click to copy href=&quot;/element/div&quot;" data-clipboard-text="href=&quot;/element/div&quot;">
 "/element/div"
@@ -86,7 +86,7 @@ href
 
 </div>
 </header><aside class="value-preview">
-<div class="value-output"><a href="#footer">нижний колонтитул</a></div>
+<div class="value-output"><a href="#footer">Footer</a></div>
 </aside></article><article id="a-href-mailtoalexsmithcom" class="value"><header class="value-header">
 <h4 class="value-name"><code class="tag" data-tooltip="Click to copy href=&quot;mailto:alex@smith.com&quot;" data-clipboard-text="href=&quot;mailto:alex@smith.com&quot;">
 "mailto:alex@smith.com"
@@ -119,7 +119,7 @@ target
 
 </div>
 </header><aside class="value-preview">
-<div class="value-output"><a href="http://htmlreference.io" target="_blank">HTML Ссылка</a></div>
+<div class="value-output"><a href="https://atomcss.ru" target="_blank">HTML Ссылка</a></div>
 </aside></article><article id="a-target-_self" class="value"><header class="value-header">
 <h4 class="value-name"><code class="tag" data-tooltip="Click to copy target=&quot;_self&quot;" data-clipboard-text="target=&quot;_self&quot;">
 "_self"
@@ -130,7 +130,7 @@ target
 
 </div>
 </header><aside class="value-preview">
-<div class="value-output"><a href="http://htmlreference.io" target="_self">HTML Ссылка</a></div>
+<div class="value-output"><a href="https://atomcss.ru" target="_self">HTML Ссылка</a></div>
 </aside></article><article id="a-target-_parent" class="value"><header class="value-header">
 <h4 class="value-name"><code class="tag" data-tooltip="Click to copy target=&quot;_parent&quot;" data-clipboard-text="target=&quot;_parent&quot;">
 "_parent"
@@ -141,7 +141,7 @@ target
 
 </div>
 </header><aside class="value-preview">
-<div class="value-output"><a href="http://htmlreference.io" target="_parent">HTML Ссылка</a></div>
+<div class="value-output"><a href="https://atomcss.ru" target="_parent">HTML Ссылка</a></div>
 </aside></article><article id="a-target-_top" class="value"><header class="value-header">
 <h4 class="value-name"><code class="tag" data-tooltip="Click to copy target=&quot;_top&quot;" data-clipboard-text="target=&quot;_top&quot;">
 "_top"
@@ -152,7 +152,7 @@ target
 
 </div>
 </header><aside class="value-preview">
-<div class="value-output"><a href="http://htmlreference.io" target="_top">HTML Ссылка</a></div>
+<div class="value-output"><a href="https://atomcss.ru" target="_top">HTML Ссылка</a></div>
 </aside></article></div>
 </article><article id="a-rel" class="attribute"><header class="attribute-header">
 <h3 class="attribute-name"><code class="tag" data-tooltip="Click to copy" data-clipboard-text="rel">

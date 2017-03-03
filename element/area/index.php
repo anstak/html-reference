@@ -7,17 +7,17 @@ elementName: area
   <header class="element-header">
     <nav class="element-links">
         <span>
-          Type: <strong>inline</strong>
+          Тип: <strong>inline</strong>
         </span>
       <span>
-        Self-closing:
+        Самозакрывающийся:
         <strong>
-            No
+            Нет
         </strong>
       </span>
-      <a class="element-links-direct" href="{{site.url}}/element/area/" data-element-name="area" data-tooltip="Single page for this element">Permalink</a>
-      <a class="element-share" data-tooltip="Share on Twitter or Facebook" data-element-name="area">Share</a>
-      <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/area" data-tooltip="See on Mozilla Developer Network" rel="external">MDN</a>
+      <a class="element-links-direct" href="{{site.url}}/element/area/" data-element-name="area" data-tooltip="Ссылка на отдельную страницу с тегом">Ссылка</a>
+      <a class="element-share" data-tooltip="Поделиться в соц. сетях" data-element-name="area">Поделиться</a>
+      <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/area" data-tooltip="Посмотреть в Mozilla Developer Network" rel="external">MDN</a>
     </nav>
     <h2 class="element-name">
       <a href="#area">
@@ -33,7 +33,7 @@ elementName: area
 
       <div id="area-example-0" class="example">
         <p class="example-label">
-          <strong>Example:</strong>
+          <strong>Пример:</strong>
           <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#area-example-0-code">Copy</a>
         </p>
         <article class="example-preview">
@@ -237,8 +237,8 @@ elementName: area
           <article id="area-href-httphtmlreferenceio" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy href=&quot;http://htmlreference.io&quot;" data-clipboard-text="href=&quot;http://htmlreference.io&quot;">
-                      "http://htmlreference.io"
+                  <code class="tag" data-tooltip="Click to copy href=&quot;https://atomcss.ru&quot;" data-clipboard-text="href=&quot;https://atomcss.ru&quot;">
+                      "https://atomcss.ru"
                   </code>
                 </h4>
               <div class="value-description">
@@ -247,7 +247,7 @@ elementName: area
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><area  href="http://htmlreference.io"></area></div>
+              <div class="value-output"><area  href="https://atomcss.ru"></area></div>
             </aside>
           </article>
           <article id="area-href-elementdiv" class="value">
@@ -327,7 +327,7 @@ elementName: area
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><area  href="http://htmlreference.io" target="_blank"></area></div>
+              <div class="value-output"><area  href="https://atomcss.ru" target="_blank"></area></div>
             </aside>
           </article>
           <article id="area-target-_self" class="value">
@@ -343,7 +343,7 @@ elementName: area
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><area  href="http://htmlreference.io" target="_self"></area></div>
+              <div class="value-output"><area  href="https://atomcss.ru" target="_self"></area></div>
             </aside>
           </article>
           <article id="area-target-_parent" class="value">
@@ -359,7 +359,7 @@ elementName: area
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><area  href="http://htmlreference.io" target="_parent"></area></div>
+              <div class="value-output"><area  href="https://atomcss.ru" target="_parent"></area></div>
             </aside>
           </article>
           <article id="area-target-_top" class="value">
@@ -375,7 +375,7 @@ elementName: area
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><area  href="http://htmlreference.io" target="_top"></area></div>
+              <div class="value-output"><area  href="https://atomcss.ru" target="_top"></area></div>
             </aside>
           </article>
       </div>

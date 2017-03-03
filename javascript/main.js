@@ -209,9 +209,9 @@ document.addEventListener('DOMContentLoaded', function() {
   var $elementShares = document.querySelectorAll('.element-share');
   var $modalInput = document.getElementById('modal-input');
   var baseURL = '' + window.location.origin + window.location.pathname;
-  baseURL = 'http://htmlreference.io/';
-  var facebookURL = 'https://www.facebook.com/sharer.php?u=http%3A%2F%2Fhtmlreference.io';
-  var twitterURL = 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fhtmlreference.io&text=HTML%20Reference%3A%20a%20guide%20to%20all%20%23HTML%20elements%20and%20attributes';
+  baseURL = 'https://atomcss.ru/htmlref/';
+  var facebookURL = 'https://www.facebook.com/sharer.php?u=https%3A%2F%2Fatomcss.ru%2Fhtmlref%2F';
+  var twitterURL = 'https://twitter.com/intent/tweet?url=https%3A%2F%2Fatomcss.ru%2Fhtmlref%2F&text=HTML%20Reference%3A%20a%20guide%20to%20all%20%23HTML%20elements%20and%20attributes';
 
   Array.prototype.forEach.call($elementShares, function($el, index) {
     $el.addEventListener('click', function(e) {
@@ -264,8 +264,8 @@ document.addEventListener('DOMContentLoaded', function() {
   function closeModal() {
     isModaling = false;
     $modalShare.classList.remove('is-active');
-    facebookURL = 'https://www.facebook.com/sharer.php?u=http%3A%2F%2Fhtmlreference.io';
-    twitterURL = 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fhtmlreference.io&text=HTML%20Reference%3A%20a%20guide%20to%20all%20%23HTML%20elements%20and%20attributes';
+    facebookURL = 'https://www.facebook.com/sharer.php?u=http%3A%2F%2Fatomcss.ru%2Fhtmlref%2F';
+    twitterURL = 'https://twitter.com/intent/tweet?url=http%3A%2F%2Fatomcss.ru%2Fhtmlref%2F&text=HTML%20Reference%3A%20a%20guide%20to%20all%20%23HTML%20elements%20and%20attributes';
   }
 
   var modalClipboard = new Clipboard('#modal-copy');

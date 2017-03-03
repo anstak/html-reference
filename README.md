@@ -1,6 +1,6 @@
-# [HTML Reference](http://htmlreference.io): a free visual guide to HTML elements and attributes
+# [HTML Reference](https://atomcss.ru): a free visual guide to HTML elements and attributes
 
-[![HTML Reference screenshot](https://raw.github.com/jgthms/html-reference/master/images/html-reference-share.png)](http://htmlreference.io)
+[![HTML Reference screenshot](https://raw.github.com/jgthms/html-reference/master/images/html-reference-share.png)](https://atomcss.ru)
 
 # License
 

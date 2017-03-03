@@ -2904,7 +2904,7 @@ label.light {
   border-top: 2px solid #ff470f;
   overflow: hidden;
   padding-bottom: 3rem;
-  padding-top: 3rem; }
+  padding-top: 2rem; }
 
 .element--experimental {
   background-image: repeating-linear-gradient(-45deg, whitesmoke, whitesmoke 10px, #fafafa 10px, #fafafa 20px);

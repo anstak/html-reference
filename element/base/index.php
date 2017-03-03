@@ -7,14 +7,14 @@ elementName: base
   <header class="element-header">
     <nav class="element-links">
       <span>
-        Self-closing:
+        Самозакрывающийся:
         <strong>
             Yes
         </strong>
       </span>
-      <a class="element-links-direct" href="{{site.url}}/element/base/" data-element-name="base" data-tooltip="Single page for this element">Permalink</a>
-      <a class="element-share" data-tooltip="Share on Twitter or Facebook" data-element-name="base">Share</a>
-      <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/base" data-tooltip="See on Mozilla Developer Network" rel="external">MDN</a>
+      <a class="element-links-direct" href="{{site.url}}/element/base/" data-element-name="base" data-tooltip="Ссылка на отдельную страницу с тегом">Ссылка</a>
+      <a class="element-share" data-tooltip="Поделиться в соц. сетях" data-element-name="base">Поделиться</a>
+      <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/base" data-tooltip="Посмотреть в Mozilla Developer Network" rel="external">MDN</a>
     </nav>
     <h2 class="element-name">
       <a href="#base">
@@ -30,16 +30,16 @@ elementName: base
 
       <div id="base-example-0" class="example">
         <p class="example-label">
-          <strong>Example:</strong>
+          <strong>Пример:</strong>
           <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#base-example-0-code">Copy</a>
         </p>
         <article class="example-preview">
             <div class="example-output"><base href="{{site.url}}">
 <a href="/element/base">The HTML base element</a>
-<!-- This will be an absolute link to http://htmlreference.io/element/base --></div>
+<!-- This will be an absolute link to https://atomcss.ru/element/base --></div>
           <div id="base-example-0-code" class="example-code">{% highlight html %}<base href="{{site.url}}">
 <a href="/element/base">The HTML base element</a>
-<!-- This will be an absolute link to http://htmlreference.io/element/base -->{% endhighlight %}</div>
+<!-- This will be an absolute link to https://atomcss.ru/element/base -->{% endhighlight %}</div>
         </article>
       </div>
 
