@@ -54,12 +54,12 @@ route: index
     <main class="index">
       <div class="index-collections">
         <div class="container">
-          <strong>Collections:</strong>
-          <a href="{{site.url}}/base/">Base elements</a>
-          <a href="{{site.url}}/forms/">Forms</a>
-          <a href="{{site.url}}/lists/">Lists</a>
-          <a href="{{site.url}}/semantic/">Semantic</a>
-          <a href="{{site.url}}/tables/">Tables</a>
+          <strong>Коллекции:</strong>
+          <a href="{{site.url}}/base">Базовые теги</a>
+          <a href="{{site.url}}/forms">Теги форм</a>
+          <a href="{{site.url}}/lists">Теги списка</a>
+          <a href="{{site.url}}/semantic">Семантические теги</a>
+          <a href="{{site.url}}/tables">Теги таблицы</a>
         </div>
       </div>
       <div class="container">

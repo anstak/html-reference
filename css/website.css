@@ -2760,7 +2760,8 @@ label.light {
 
 .attribute-is-required {
   color: #ff4538;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  white-space: nowrap; }
 
 .attribute-is-novalue {
   color: #b86bff;

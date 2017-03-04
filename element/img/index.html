@@ -5,9 +5,9 @@ elementName: img
 
 <section id="img" class="element">
   <header class="element-header">
-    <nav class="element-links">
+    <nav translate="no" class="notranslate element-links">
         <span>
-          Тип: <strong>inline</strong>
+          Тип: <strong>inline (строчный)</strong>
         </span>
       <span>
         Самозакрывающийся:
@@ -19,7 +19,7 @@ elementName: img
       <a class="element-share" data-tooltip="Поделиться в соц. сетях" data-element-name="img">Поделиться</a>
       <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/img" data-tooltip="Посмотреть в Mozilla Developer Network" rel="external">MDN</a>
     </nav>
-    <h2 class="element-name">
+    <h2 translate="no" class="notranslate element-name">
       <a href="#img">
         <span>#</span>
         img
@@ -34,7 +34,7 @@ elementName: img
       <div id="img-example-0" class="example">
         <p class="example-label">
           <strong>Пример:</strong>
-          <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#img-example-0-code">Copy</a>
+          <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#img-example-0-code">Копировать</a>
         </p>
         <article class="example-preview">
             <div class="example-output"><img src="{{site.url}}/images/sunset.jpg" alt="Picture of a Ha Long Bay sunset"></div>
@@ -44,24 +44,24 @@ elementName: img
       <div id="img-example-1" class="example">
         <p class="example-label">
           <strong>Пример:</strong>
-          <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#img-example-1-code">Copy</a>
+          <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#img-example-1-code">Копировать</a>
         </p>
         <article class="example-preview">
             <div class="example-output"><!-- For responsive images, use srcset and sizes -->
 
 <img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
-  srcset="/images/sunset-360.jpg 360w,
-          /images/sunset-720.jpg 720w,
-          /images/sunset-1440.jpg 1440w>"
+  srcset="/htmlref/images/sunset-360.jpg 360w,
+          /htmlref/images/sunset-720.jpg 720w,
+          /htmlref/images/sunset-1440.jpg 1440w>"
   sizes="(min-width: 800px) 720px, 360px"></div>
           <div id="img-example-1-code" class="example-code">{% highlight html %}<!-- For responsive images, use srcset and sizes -->
 
 <img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
-  srcset="/images/sunset-360.jpg 360w,
-          /images/sunset-720.jpg 720w,
-          /images/sunset-1440.jpg 1440w>"
+  srcset="/htmlref/images/sunset-360.jpg 360w,
+          /htmlref/images/sunset-720.jpg 720w,
+          /htmlref/images/sunset-1440.jpg 1440w>"
   sizes="(min-width: 800px) 720px, 360px">{% endhighlight %}</div>
         </article>
       </div>
@@ -69,14 +69,14 @@ elementName: img
     <article id="img-src" class="attribute attribute--required">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="src">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="src">
             src
           </code>
         </h3>
         <div class="attribute-description">
           <p>The URL where the image is hosted.</p>
 
-            <strong class="attribute-is-required">Required.</strong>
+            <strong class="attribute-is-required">Обязательный аттрибут.</strong>
         </div>
       </header>
 
@@ -84,8 +84,8 @@ elementName: img
           <article id="img-src-imagestiramisujpg" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy src=&quot;/images/tiramisu.jpg&quot;" data-clipboard-text="src=&quot;/images/tiramisu.jpg&quot;">
-                      "/images/tiramisu.jpg"
+                  <code class="tag" data-tooltip="Скопировать src=&quot;/images/tiramisu.jpg&quot;" data-clipboard-text="src=&quot;/images/tiramisu.jpg&quot;">
+                      "/htmlref/images/tiramisu.jpg"
                   </code>
                 </h4>
               <div class="value-description">
@@ -100,7 +100,7 @@ elementName: img
           <article id="img-src-siteurlimagestrafficjpg" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy src=&quot;{{site.url}}/images/traffic.jpg&quot;" data-clipboard-text="src=&quot;{{site.url}}/images/traffic.jpg&quot;">
+                  <code class="tag" data-tooltip="Скопировать src=&quot;{{site.url}}/images/traffic.jpg&quot;" data-clipboard-text="src=&quot;{{site.url}}/images/traffic.jpg&quot;">
                       "{{site.url}}/images/traffic.jpg"
                   </code>
                 </h4>
@@ -118,14 +118,14 @@ elementName: img
     <article id="img-alt" class="attribute attribute--required">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="alt">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="alt">
             alt
           </code>
         </h3>
         <div class="attribute-description">
           <p>Alternative text to describe the image if it&#39;s not available. Used by screen readers.</p>
 
-            <strong class="attribute-is-required">Required.</strong>
+            <strong class="attribute-is-required">Обязательный аттрибут.</strong>
         </div>
       </header>
 
@@ -133,7 +133,7 @@ elementName: img
           <article id="img-alt-picture-of-a-man-standing-in-front-of-the-dragons-pearl-boat" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy alt=&quot;Picture of a man standing in front of the Dragon&#x27;s Pearl boat&quot;" data-clipboard-text="alt=&quot;Picture of a man standing in front of the Dragon&#x27;s Pearl boat&quot;">
+                  <code class="tag" data-tooltip="Скопировать alt=&quot;Picture of a man standing in front of the Dragon&#x27;s Pearl boat&quot;" data-clipboard-text="alt=&quot;Picture of a man standing in front of the Dragon&#x27;s Pearl boat&quot;">
                       "Picture of a man standing in front of the Dragon&#x27;s Pearl boat"
                   </code>
                 </h4>
@@ -151,7 +151,7 @@ elementName: img
     <article id="img-srcset" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="srcset">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="srcset">
             srcset
           </code>
         </h3>
@@ -165,8 +165,8 @@ elementName: img
           <article id="img-srcset-imagessunset-2xjpg-2x" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy srcset=&quot;/images/sunset-@2x.jpg 2x&quot;" data-clipboard-text="srcset=&quot;/images/sunset-@2x.jpg 2x&quot;">
-                      "/images/sunset-@2x.jpg 2x"
+                  <code class="tag" data-tooltip="Скопировать srcset=&quot;/images/sunset-@2x.jpg 2x&quot;" data-clipboard-text="srcset=&quot;/images/sunset-@2x.jpg 2x&quot;">
+                      "/htmlref/images/sunset-@2x.jpg 2x"
                   </code>
                 </h4>
               <div class="value-description">
@@ -174,7 +174,7 @@ elementName: img
 
 {% highlight html %}
 <img src="{{site.url}}/images/sunset.jpg"
-     srcset="/images/sunset-@2x.jpg 2x"
+     srcset="/htmlref/images/sunset-@2x.jpg 2x"
      alt="Picture of a Ha Long Bay sunset">
 {% endhighlight %}
 <p>The browser will either use <code>sunset.jpg</code> or <code>sunset-@2x.jpg</code> depending on the space available, the pixel density, etc.</p>
@@ -183,15 +183,15 @@ elementName: img
             </header>
             <aside class="value-preview">
               <div class="value-output"><img src="{{site.url}}/images/sunset.jpg"
-     srcset="/images/sunset-@2x.jpg 2x"
+     srcset="/htmlref/images/sunset-@2x.jpg 2x"
      alt="Picture of a Ha Long Bay sunset"></div>
             </aside>
           </article>
           <article id="img-srcset-imagessunset-360jpg-360w-imagessunset-720jpg-720w-imagessunset-1440jpg-1440w" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy srcset=&quot;/images/sunset-360.jpg 360w, /images/sunset-720.jpg 720w, /images/sunset-1440.jpg 1440w&quot;" data-clipboard-text="srcset=&quot;/images/sunset-360.jpg 360w, /images/sunset-720.jpg 720w, /images/sunset-1440.jpg 1440w&quot;">
-                      "/images/sunset-360.jpg 360w,<br> /images/sunset-720.jpg 720w,<br> /images/sunset-1440.jpg 1440w"
+                  <code class="tag" data-tooltip="Скопировать srcset=&quot;/images/sunset-360.jpg 360w, /htmlref/images/sunset-720.jpg 720w, /htmlref/images/sunset-1440.jpg 1440w&quot;" data-clipboard-text="srcset=&quot;/images/sunset-360.jpg 360w, /htmlref/images/sunset-720.jpg 720w, /htmlref/images/sunset-1440.jpg 1440w&quot;">
+                      "/htmlref/images/sunset-360.jpg 360w,<br> /htmlref/images/sunset-720.jpg 720w,<br> /htmlref/images/sunset-1440.jpg 1440w"
                   </code>
                 </h4>
               <div class="value-description">
@@ -200,9 +200,9 @@ elementName: img
 {% highlight html %}
 <img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
-  srcset="/images/sunset-360.jpg 360w,
-          /images/sunset-720.jpg 720w,
-          /images/sunset-1440.jpg 1440w>"
+  srcset="/htmlref/images/sunset-360.jpg 360w,
+          /htmlref/images/sunset-720.jpg 720w,
+          /htmlref/images/sunset-1440.jpg 1440w>"
   sizes="(min-width: 800px) 720px, 360px">
 {% endhighlight %}
 
@@ -211,9 +211,9 @@ elementName: img
             <aside class="value-preview">
               <div class="value-output"><img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
-  srcset="/images/sunset-360.jpg 360w,
-          /images/sunset-720.jpg 720w,
-          /images/sunset-1440.jpg 1440w>"
+  srcset="/htmlref/images/sunset-360.jpg 360w,
+          /htmlref/images/sunset-720.jpg 720w,
+          /htmlref/images/sunset-1440.jpg 1440w>"
   sizes="(min-width: 800px) 720px, 360px"></div>
             </aside>
           </article>
@@ -222,7 +222,7 @@ elementName: img
     <article id="img-sizes" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="sizes">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="sizes">
             sizes
           </code>
         </h3>
@@ -236,7 +236,7 @@ elementName: img
           <article id="img-sizes-min-width-800px-1440px-720px" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy sizes=&quot;(min-width: 800px) 1440px, 720px&quot;" data-clipboard-text="sizes=&quot;(min-width: 800px) 1440px, 720px&quot;">
+                  <code class="tag" data-tooltip="Скопировать sizes=&quot;(min-width: 800px) 1440px, 720px&quot;" data-clipboard-text="sizes=&quot;(min-width: 800px) 1440px, 720px&quot;">
                       "(min-width: 800px) 1440px, 720px"
                   </code>
                 </h4>
@@ -246,9 +246,9 @@ elementName: img
 {% highlight html %}
 <img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
-  srcset="/images/sunset-360.jpg 360w,
-          /images/sunset-720.jpg 720w,
-          /images/sunset-1440.jpg 1440w>"
+  srcset="/htmlref/images/sunset-360.jpg 360w,
+          /htmlref/images/sunset-720.jpg 720w,
+          /htmlref/images/sunset-1440.jpg 1440w>"
   sizes="(min-width: 800px) 720px, 360px">
 {% endhighlight %}
 
@@ -257,9 +257,9 @@ elementName: img
             <aside class="value-preview">
               <div class="value-output"><img src="{{site.url}}/images/sunset-360.jpg"
   alt="Picture of a Ha Long Bay sunset"
-  srcset="/images/sunset-360.jpg 360w,
-          /images/sunset-720.jpg 720w,
-          /images/sunset-1440.jpg 1440w>"
+  srcset="/htmlref/images/sunset-360.jpg 360w,
+          /htmlref/images/sunset-720.jpg 720w,
+          /htmlref/images/sunset-1440.jpg 1440w>"
   sizes="(min-width: 800px) 720px, 360px"></div>
             </aside>
           </article>
@@ -268,7 +268,7 @@ elementName: img
     <article id="img-height" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="height">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="height">
             height
           </code>
         </h3>
@@ -282,7 +282,7 @@ elementName: img
           <article id="img-height-240" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy height=&quot;240&quot;" data-clipboard-text="height=&quot;240&quot;">
+                  <code class="tag" data-tooltip="Скопировать height=&quot;240&quot;" data-clipboard-text="height=&quot;240&quot;">
                       "240"
                   </code>
                 </h4>
@@ -300,7 +300,7 @@ elementName: img
     <article id="img-width" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="width">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="width">
             width
           </code>
         </h3>
@@ -314,7 +314,7 @@ elementName: img
           <article id="img-width-120" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy width=&quot;120&quot;" data-clipboard-text="width=&quot;120&quot;">
+                  <code class="tag" data-tooltip="Скопировать width=&quot;120&quot;" data-clipboard-text="width=&quot;120&quot;">
                       "120"
                   </code>
                 </h4>

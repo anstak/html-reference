@@ -5,9 +5,9 @@ elementName: address
 
 <section id="address" class="element">
   <header class="element-header">
-    <nav class="element-links">
+    <nav translate="no" class="notranslate element-links">
         <span>
-          Тип: <strong>block</strong>
+          Тип: <strong>block (блочный)</strong>
         </span>
       <span>
         Самозакрывающийся:
@@ -19,7 +19,7 @@ elementName: address
       <a class="element-share" data-tooltip="Поделиться в соц. сетях" data-element-name="address">Поделиться</a>
       <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/address" data-tooltip="Посмотреть в Mozilla Developer Network" rel="external">MDN</a>
     </nav>
-    <h2 class="element-name">
+    <h2 translate="no" class="notranslate element-name">
       <a href="#address">
         <span>#</span>
         address
@@ -34,7 +34,7 @@ elementName: address
       <div id="address-example-0" class="example">
         <p class="example-label">
           <strong>Пример:</strong>
-          <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#address-example-0-code">Copy</a>
+          <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#address-example-0-code">Копировать</a>
         </p>
         <article class="example-preview">
             <div class="example-output"><address>

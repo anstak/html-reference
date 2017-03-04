@@ -1,7 +1,7 @@
-title: HTML Reference
-subtitle: "A free guide to HTML"
-description: A free guide to all HTML elements and attributes.
-share: "HTML Reference: a free guide to all HTML elements and attributes."
+title: HTML Справочник
+subtitle: "Бесплатный справочник по HTML"
+description: Бесплатный справочник всех HTML тегов и аттрибутов.
+share: "HTML ссылка: бесплатный справочник всех HTML тегов и аттрибутов."
 url: https://atomcss.ru/htmlref
 destination: "../atomcss.ru/htmlref"
 markdown: kramdown

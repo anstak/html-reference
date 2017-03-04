@@ -5,9 +5,9 @@ elementName: area
 
 <section id="area" class="element">
   <header class="element-header">
-    <nav class="element-links">
+    <nav translate="no" class="notranslate element-links">
         <span>
-          Тип: <strong>inline</strong>
+          Тип: <strong>inline (строчный)</strong>
         </span>
       <span>
         Самозакрывающийся:
@@ -19,7 +19,7 @@ elementName: area
       <a class="element-share" data-tooltip="Поделиться в соц. сетях" data-element-name="area">Поделиться</a>
       <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/area" data-tooltip="Посмотреть в Mozilla Developer Network" rel="external">MDN</a>
     </nav>
-    <h2 class="element-name">
+    <h2 translate="no" class="notranslate element-name">
       <a href="#area">
         <span>#</span>
         area
@@ -34,7 +34,7 @@ elementName: area
       <div id="area-example-0" class="example">
         <p class="example-label">
           <strong>Пример:</strong>
-          <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#area-example-0-code">Copy</a>
+          <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#area-example-0-code">Копировать</a>
         </p>
         <article class="example-preview">
             <div class="example-output"><img src="{{site.url}}/images/world-continents.png" width="320" height="160" orgwidth="320" orgheight="160" usemap="#world-continents">
@@ -63,7 +63,7 @@ elementName: area
     <article id="area-title" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="title">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="title">
             title
           </code>
         </h3>
@@ -77,7 +77,7 @@ elementName: area
           <article id="area-title-north-america" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy title=&quot;North America&quot;" data-clipboard-text="title=&quot;North America&quot;">
+                  <code class="tag" data-tooltip="Скопировать title=&quot;North America&quot;" data-clipboard-text="title=&quot;North America&quot;">
                       "North America"
                   </code>
                 </h4>
@@ -95,7 +95,7 @@ elementName: area
     <article id="area-shape" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="shape">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="shape">
             shape
           </code>
         </h3>
@@ -109,7 +109,7 @@ elementName: area
           <article id="area-shape-rect" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy shape=&quot;rect&quot;" data-clipboard-text="shape=&quot;rect&quot;">
+                  <code class="tag" data-tooltip="Скопировать shape=&quot;rect&quot;" data-clipboard-text="shape=&quot;rect&quot;">
                       "rect"
                   </code>
                 </h4>
@@ -125,7 +125,7 @@ elementName: area
           <article id="area-shape-circle" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy shape=&quot;circle&quot;" data-clipboard-text="shape=&quot;circle&quot;">
+                  <code class="tag" data-tooltip="Скопировать shape=&quot;circle&quot;" data-clipboard-text="shape=&quot;circle&quot;">
                       "circle"
                   </code>
                 </h4>
@@ -141,7 +141,7 @@ elementName: area
           <article id="area-shape-polygon" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy shape=&quot;polygon&quot;" data-clipboard-text="shape=&quot;polygon&quot;">
+                  <code class="tag" data-tooltip="Скопировать shape=&quot;polygon&quot;" data-clipboard-text="shape=&quot;polygon&quot;">
                       "polygon"
                   </code>
                 </h4>
@@ -159,7 +159,7 @@ elementName: area
     <article id="area-coords" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="coords">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="coords">
             coords
           </code>
         </h3>
@@ -173,7 +173,7 @@ elementName: area
           <article id="area-coords-116104234154" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy coords=&quot;116,104,234,154&quot;" data-clipboard-text="coords=&quot;116,104,234,154&quot;">
+                  <code class="tag" data-tooltip="Скопировать coords=&quot;116,104,234,154&quot;" data-clipboard-text="coords=&quot;116,104,234,154&quot;">
                       "116,104,234,154"
                   </code>
                 </h4>
@@ -189,7 +189,7 @@ elementName: area
           <article id="area-coords-508020" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy coords=&quot;50,80,20&quot;" data-clipboard-text="coords=&quot;50,80,20&quot;">
+                  <code class="tag" data-tooltip="Скопировать coords=&quot;50,80,20&quot;" data-clipboard-text="coords=&quot;50,80,20&quot;">
                       "50,80,20"
                   </code>
                 </h4>
@@ -205,7 +205,7 @@ elementName: area
           <article id="area-coords-198374243303428387361624296624" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy coords=&quot;198,374,243,303,428,387,361,624,296,624&quot;" data-clipboard-text="coords=&quot;198,374,243,303,428,387,361,624,296,624&quot;">
+                  <code class="tag" data-tooltip="Скопировать coords=&quot;198,374,243,303,428,387,361,624,296,624&quot;" data-clipboard-text="coords=&quot;198,374,243,303,428,387,361,624,296,624&quot;">
                       "198,374,243,303,428,387,361,624,296,624"
                   </code>
                 </h4>
@@ -223,7 +223,7 @@ elementName: area
     <article id="area-href" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="href">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="href">
             href
           </code>
         </h3>
@@ -237,7 +237,7 @@ elementName: area
           <article id="area-href-httphtmlreferenceio" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy href=&quot;https://atomcss.ru&quot;" data-clipboard-text="href=&quot;https://atomcss.ru&quot;">
+                  <code class="tag" data-tooltip="Скопировать href=&quot;https://atomcss.ru&quot;" data-clipboard-text="href=&quot;https://atomcss.ru&quot;">
                       "https://atomcss.ru"
                   </code>
                 </h4>
@@ -253,7 +253,7 @@ elementName: area
           <article id="area-href-elementdiv" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy href=&quot;/element/div&quot;" data-clipboard-text="href=&quot;/element/div&quot;">
+                  <code class="tag" data-tooltip="Скопировать href=&quot;/element/div&quot;" data-clipboard-text="href=&quot;/element/div&quot;">
                       "/element/div"
                   </code>
                 </h4>
@@ -269,7 +269,7 @@ elementName: area
           <article id="area-href-footer" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy href=&quot;#footer&quot;" data-clipboard-text="href=&quot;#footer&quot;">
+                  <code class="tag" data-tooltip="Скопировать href=&quot;#footer&quot;" data-clipboard-text="href=&quot;#footer&quot;">
                       "#footer"
                   </code>
                 </h4>
@@ -285,7 +285,7 @@ elementName: area
           <article id="area-href-mailtoalexsmithcom" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy href=&quot;mailto:alex@smith.com&quot;" data-clipboard-text="href=&quot;mailto:alex@smith.com&quot;">
+                  <code class="tag" data-tooltip="Скопировать href=&quot;mailto:alex@smith.com&quot;" data-clipboard-text="href=&quot;mailto:alex@smith.com&quot;">
                       "mailto:alex@smith.com"
                   </code>
                 </h4>
@@ -303,7 +303,7 @@ elementName: area
     <article id="area-target" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="target">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="target">
             target
           </code>
         </h3>
@@ -317,7 +317,7 @@ elementName: area
           <article id="area-target-_blank" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy target=&quot;_blank&quot;" data-clipboard-text="target=&quot;_blank&quot;">
+                  <code class="tag" data-tooltip="Скопировать target=&quot;_blank&quot;" data-clipboard-text="target=&quot;_blank&quot;">
                       "_blank"
                   </code>
                 </h4>
@@ -333,7 +333,7 @@ elementName: area
           <article id="area-target-_self" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy target=&quot;_self&quot;" data-clipboard-text="target=&quot;_self&quot;">
+                  <code class="tag" data-tooltip="Скопировать target=&quot;_self&quot;" data-clipboard-text="target=&quot;_self&quot;">
                       "_self"
                   </code>
                 </h4>
@@ -349,7 +349,7 @@ elementName: area
           <article id="area-target-_parent" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy target=&quot;_parent&quot;" data-clipboard-text="target=&quot;_parent&quot;">
+                  <code class="tag" data-tooltip="Скопировать target=&quot;_parent&quot;" data-clipboard-text="target=&quot;_parent&quot;">
                       "_parent"
                   </code>
                 </h4>
@@ -365,7 +365,7 @@ elementName: area
           <article id="area-target-_top" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy target=&quot;_top&quot;" data-clipboard-text="target=&quot;_top&quot;">
+                  <code class="tag" data-tooltip="Скопировать target=&quot;_top&quot;" data-clipboard-text="target=&quot;_top&quot;">
                       "_top"
                   </code>
                 </h4>

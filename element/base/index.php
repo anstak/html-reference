@@ -5,7 +5,7 @@ elementName: base
 
 <section id="base" class="element">
   <header class="element-header">
-    <nav class="element-links">
+    <nav translate="no" class="notranslate element-links">
       <span>
         Самозакрывающийся:
         <strong>
@@ -16,7 +16,7 @@ elementName: base
       <a class="element-share" data-tooltip="Поделиться в соц. сетях" data-element-name="base">Поделиться</a>
       <a target="_blank" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/base" data-tooltip="Посмотреть в Mozilla Developer Network" rel="external">MDN</a>
     </nav>
-    <h2 class="element-name">
+    <h2 translate="no" class="notranslate element-name">
       <a href="#base">
         <span>#</span>
         base
@@ -31,7 +31,7 @@ elementName: base
       <div id="base-example-0" class="example">
         <p class="example-label">
           <strong>Пример:</strong>
-          <a class="example-clipboard" data-tooltip="Click to copy code" data-clipboard-target="#base-example-0-code">Copy</a>
+          <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#base-example-0-code">Копировать</a>
         </p>
         <article class="example-preview">
             <div class="example-output"><base href="{{site.url}}">
@@ -46,7 +46,7 @@ elementName: base
     <article id="base-href" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="href">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="href">
             href
           </code>
         </h3>
@@ -60,7 +60,7 @@ elementName: base
           <article id="base-href-siteurl" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy href=&quot;{{site.url}}&quot;" data-clipboard-text="href=&quot;{{site.url}}&quot;">
+                  <code class="tag" data-tooltip="Скопировать href=&quot;{{site.url}}&quot;" data-clipboard-text="href=&quot;{{site.url}}&quot;">
                       "{{site.url}}"
                   </code>
                 </h4>
@@ -78,7 +78,7 @@ elementName: base
     <article id="base-target" class="attribute">
       <header class="attribute-header">
         <h3 class="attribute-name">
-          <code class="tag" data-tooltip="Click to copy" data-clipboard-text="target">
+          <code class="tag" data-tooltip="Скопировать" data-clipboard-text="target">
             target
           </code>
         </h3>
@@ -92,7 +92,7 @@ elementName: base
           <article id="base-target-_blank" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy target=&quot;_blank&quot;" data-clipboard-text="target=&quot;_blank&quot;">
+                  <code class="tag" data-tooltip="Скопировать target=&quot;_blank&quot;" data-clipboard-text="target=&quot;_blank&quot;">
                       "_blank"
                   </code>
                 </h4>
@@ -108,7 +108,7 @@ elementName: base
           <article id="base-target-_self" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy target=&quot;_self&quot;" data-clipboard-text="target=&quot;_self&quot;">
+                  <code class="tag" data-tooltip="Скопировать target=&quot;_self&quot;" data-clipboard-text="target=&quot;_self&quot;">
                       "_self"
                   </code>
                 </h4>
@@ -124,7 +124,7 @@ elementName: base
           <article id="base-target-_parent" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy target=&quot;_parent&quot;" data-clipboard-text="target=&quot;_parent&quot;">
+                  <code class="tag" data-tooltip="Скопировать target=&quot;_parent&quot;" data-clipboard-text="target=&quot;_parent&quot;">
                       "_parent"
                   </code>
                 </h4>
@@ -140,7 +140,7 @@ elementName: base
           <article id="base-target-_top" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Click to copy target=&quot;_top&quot;" data-clipboard-text="target=&quot;_top&quot;">
+                  <code class="tag" data-tooltip="Скопировать target=&quot;_top&quot;" data-clipboard-text="target=&quot;_top&quot;">
                       "_top"
                   </code>
                 </h4>
