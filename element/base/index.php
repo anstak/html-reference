@@ -23,7 +23,7 @@ elementName: base
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines the base URL for all <strong>relative</strong> links of a web page. Should be placed in the <code>&lt;head&gt;</code>.</p>
+      <p>Определяет основной URL для всех <strong>родственных</strong> ссылок веб-страницы. Должна быть размещена в тэге <code>&lt;head&gt;</code>.</p>
 
     </div>
   </header>
@@ -33,13 +33,13 @@ elementName: base
           <strong>Пример:</strong>
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#base-example-0-code">Копировать</a>
         </p>
-        <article class="example-preview">
+        <article class="example-preview" translate="no">
             <div class="example-output"><base href="{{site.url}}">
-<a href="/element/base">The HTML base element</a>
+<a href="/element/base">Базовый HTML элемент</a>
 <!-- This will be an absolute link to https://atomcss.ru/element/base --></div>
           <div id="base-example-0-code" class="example-code">{% highlight html %}<base href="{{site.url}}">
-<a href="/element/base">The HTML base element</a>
-<!-- This will be an absolute link to https://atomcss.ru/element/base -->{% endhighlight %}</div>
+<a href="/element/base"><Базовый HTML элемент</a>
+<!-- Это будет абсолютной ссылкой к https://atomcss.ru/element/base -->{% endhighlight %}</div>
         </article>
       </div>
 
@@ -51,7 +51,7 @@ elementName: base
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the base target of all links of the web page.</p>
+          <p>Определяет базовое значение всех ссылок на веб-странице.</p>
 
         </div>
       </header>
@@ -65,7 +65,7 @@ elementName: base
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can pass an <strong>absolute</strong> URL.</p>
+                <p>Вы можете пройти по <strong>абсолютному</strong> URL адресу.</p>
 
               </div>
             </header>
@@ -83,7 +83,7 @@ elementName: base
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines in which tab or window the links of the web pages will show up.</p>
+          <p>Определяет в какой вкладке или окне появится ссылка веб-страницы.</p>
 
         </div>
       </header>
@@ -97,7 +97,7 @@ elementName: base
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Opens in a new browsing context, which is usually a <strong>new tab</strong>.</p>
+                <p>Открывает в новом браузерном окне, которое обычно <strong>новая вкладка</strong>.</p>
 
               </div>
             </header>
@@ -113,7 +113,7 @@ elementName: base
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Opens in the current tab.</p>
+                <p>Откроет в текущей вкладке.</p>
 
               </div>
             </header>
@@ -129,7 +129,7 @@ elementName: base
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Opens in the parent browsing context, or <code>_self</code> is there is none.</p>
+                <p>Откроет в родительском всплывающем окне, используйте <code>_self</code> если такого нет.</p>
 
               </div>
             </header>
@@ -145,7 +145,7 @@ elementName: base
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Opens in the top browsing context, or <code>_self</code> is there is none.</p>
+                <p>Откроет в верхнем всплывающем окне, используйте <code>_self</code> если такого нет.</p>
 
               </div>
             </header>

@@ -272,8 +272,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   modalClipboard.on('success', function(e) {
     e.clearSelection();
-    e.trigger.innerHTML = 'Copied';
-    setTimeout(function() { e.trigger.innerHTML = 'Copy'; }, 500);
+    e.trigger.innerHTML = 'Скопировано';
+    setTimeout(function() { e.trigger.innerHTML = 'Копировать'; }, 500);
   });
 
   // Element: Launch animations
@@ -395,7 +395,7 @@ function limitNumber(value, min, max) {
 }
 
 function buildTwitterURL(encodedURL, elementName) {
-  var text = 'Here\'s how ' + elementName + ' works in #HTML';
+  var text = 'Изучить как тег ' + elementName + ' работает в #HTML';
   var encodedText = encodeURIComponent(text);
   return 'https://twitter.com/intent/tweet?url=' + encodedURL + '&text=' + encodedText;
 }

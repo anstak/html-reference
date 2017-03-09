@@ -50,7 +50,9 @@ route: index
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-
+    <div class="container">
+      <h1>Справочник HTML тегов</h1>
+    </div>
     <main class="index">
       <div class="index-collections">
         <div class="container">

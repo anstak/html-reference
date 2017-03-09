@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700&subset=latin,cyrillic);
 html,
@@ -112,7 +113,7 @@ th {
 
 [data-tooltip].is-copied:before {
   background: #23d160;
-  content: "Copied!"; }
+  content: "Скопировано!"; }
 
 .highlight {
   background-color: #222;
@@ -2663,7 +2664,7 @@ label.light {
       margin-left: 1em;
       padding-left: 0;
       padding-right: 0;
-      width: 5.5em; }
+      width: 8em; }
   .modal-social {
     align-items: center;
     display: flex;

@@ -1,0 +1,263 @@
+{
+    "ace": {
+        "search": {
+            "@backwards": "false",
+            "@highlightmatches": "true",
+            "@matchcase": "false",
+            "@preservecase": "false",
+            "@regex": "false",
+            "@wholeword": "false",
+            "@wraparound": "true"
+        }
+    },
+    "console": {
+        "@expanded": false,
+        "@height": "153",
+        "@maximized": "false",
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab0",
+                    "tab1"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab0",
+                    "path": "",
+                    "className": [
+                        "tab0"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1488718751459
+                        },
+                        "filter": true,
+                        "title": "bash - \"server\"",
+                        "tooltip": "bash - \"server\"",
+                        "terminal": {
+                            "id": "devel_421",
+                            "cwd": "",
+                            "width": 0,
+                            "height": 0
+                        }
+                    },
+                    "editorType": "terminal",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab1",
+                    "path": "",
+                    "className": [],
+                    "document": {
+                        "title": "Immediate",
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1488718751459
+                        },
+                        "filter": true
+                    },
+                    "editorType": "immediate",
+                    "active": false
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "experiments": {
+        "@@enabled": true,
+        "@autosave": 0,
+        "@flat-dark": 0,
+        "@git": 1,
+        "@plugin-manager": 1,
+        "@plugins": 0,
+        "@sdk": 0,
+        "@test": 0
+    },
+    "ext": {
+        "counters": {
+            "@ace": 1,
+            "@acestatus": 1,
+            "@divider": 5,
+            "@document": 8,
+            "@form": 5,
+            "@menu": 5,
+            "@menuitem": 13,
+            "@pane": 2,
+            "@session": 8,
+            "@tab": 8,
+            "@tree": 2,
+            "@undoManager": 8
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@scope": "selection",
+        "@wholeword": "false"
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "panecycle": {
+        "json()": [
+            "tab7"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "commands.panel": {
+            "@enabled": "true",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "navigate": {
+            "@enabled": "true",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "scm": {
+            "@enabled": "true",
+            "@name": "scm"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@scrollpos": 1907,
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "/",
+                "/article",
+                "/aside",
+                "/audio",
+                "/area",
+                "/b",
+                "/base",
+                "/bdi",
+                "/bdo",
+                "/blockquote",
+                "/body",
+                "/br",
+                "/button",
+                "/canvas",
+                "/caption",
+                "/cite",
+                "/code",
+                "/col",
+                "/colgroup",
+                "/data",
+                "/datalist",
+                "/dd",
+                "/del",
+                "/details",
+                "/dfn",
+                "/dialog",
+                "/div",
+                "/dl",
+                "/dt",
+                "/em",
+                "/embed",
+                "/fieldset",
+                "/figcaption",
+                "/figure",
+                "/footer",
+                "/form",
+                "/h1",
+                "/h2",
+                "/h3",
+                "/h4",
+                "/h5",
+                "/h6",
+                "/head",
+                "/header",
+                "/hgroup",
+                "/hr",
+                "/html",
+                "/i",
+                "/iframe",
+                "/img",
+                "/input",
+                "/ins",
+                "/kbd",
+                "/label",
+                "/legend",
+                "/li",
+                "/link",
+                "/main",
+                "/map"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "search-history": {
+        "search": {
+            "json()": [
+                "определяет цель"
+            ]
+        }
+    },
+    "tabs": {
+        "json()": {
+            "focus": "/map/index.php",
+            "meta": {
+                "accessList": [
+                    "tab7"
+                ]
+            },
+            "name": "pane0",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab7",
+                    "path": "/map/index.php",
+                    "className": [
+                        "tab7",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1488692702147
+                        },
+                        "filter": true,
+                        "title": "index.php",
+                        "tooltip": "/map/index.php",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/map/index.php"
+        ]
+    }
+}

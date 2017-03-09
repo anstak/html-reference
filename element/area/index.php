@@ -26,7 +26,7 @@ elementName: area
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines an interactive area within a <code>map</code>.</p>
+      <p>Определяет интерактивную область в пределах тэга <code>map</code>.</p>
 
     </div>
   </header>
@@ -68,7 +68,7 @@ elementName: area
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the title of the area.</p>
+          <p>Определяет название области.</p>
 
         </div>
       </header>
@@ -82,7 +82,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The title will appear when hovering the area.</p>
+                <p>Название появится при наведении курсора на область.</p>
 
               </div>
             </header>
@@ -100,7 +100,7 @@ elementName: area
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the shape of the area.</p>
+          <p>Определяет форму области.</p>
 
         </div>
       </header>
@@ -114,7 +114,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The shape is a rectangle and requires 4 coordinates.</p>
+                <p>Форма является прямоугольной, и требует 4 координаты.</p>
 
               </div>
             </header>
@@ -130,7 +130,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The shape is a circle and requires 2 coordinates and 1 radius.</p>
+                <p>Форма является кругом и требует 2 координаты и 1 радиус.</p>
 
               </div>
             </header>
@@ -146,7 +146,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The shape is a polygon with unlimited points.</p>
+                <p>Форма является многоугольником с неограниченным количеством точек .</p>
 
               </div>
             </header>
@@ -164,7 +164,7 @@ elementName: area
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the coordinates related to the shape.</p>
+          <p> Определяет координаты связанные с формой.</p>
 
         </div>
       </header>
@@ -178,7 +178,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>A <code>rect</code> requires two pairs <code>x1,y1,x2,y2</code>, where the first one defines the <strong>top left</strong> corner, and the second one the <strong>bottom right</strong> corner.</p>
+                <p>Элемент <code>rect</code> требует две пары координат <code>x1,y1,x2,y2</code>, где первая определяет <strong>верхний левый</strong> угол, и вторая - <strong>нижний правый</strong> угол.</p>
 
               </div>
             </header>
@@ -194,7 +194,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>A <code>circle</code> requires a pair and a radius <code>x,y,r</code>. The pair defines the <strong>center</strong> of the circle.</p>
+                <p>Элемент<code>circle</code> требует парные координаты и радиус – <code>x,y,r</code>.Координаты (x, y) определяют <strong>центр</strong> круга.</p>
 
               </div>
             </header>
@@ -210,7 +210,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>A <code>polygon</code> requires a collection of <code>x,y</code> pairs.</p>
+                <p>Элемент<code>polygon</code> требует набор <code>x,y</code> координат.</p>
 
               </div>
             </header>
@@ -228,7 +228,7 @@ elementName: area
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the target of the area.</p>
+          <p>Определяет ссылку, на которую при клике на область, будет осуществляться переход.</p>
 
         </div>
       </header>
@@ -242,7 +242,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can pass an <strong>absolute</strong> URL.</p>
+                <p>Вы можете переходить по <strong>абсолютному</strong> URL адресу.</p>
 
               </div>
             </header>
@@ -258,7 +258,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can pass a URL <strong>relative</strong> to the root domain.</p>
+                <p>Вы можете переходить по URL адресу <strong>относительно</strong> корневого домена.</p>
 
               </div>
             </header>
@@ -274,7 +274,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can target an element within the <em>same</em> page. Here, we target the element <code>&lt;div id=&quot;footer&quot;&gt;</code></p>
+                <p>Вы можете выбрать элемент в пределах <em>одной и той же</em> страницы. На примере, мы выбираем элемент <code>&lt;div id=&quot;footer&quot;&gt;</code></p>
 
               </div>
             </header>
@@ -290,12 +290,12 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use the <code>mailto</code> protocol. Clicking the area will open the user&#39;s email client.</p>
+                <p>Вы можете использовать <code>mailto</code> протокол. При клике на область откроется ваш почтовый клиент.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><area  href="mailto:alex@smith.com">Contact me</area></div>
+              <div class="value-output"><area  href="mailto:alex@smith.com">Свяжитесь со мной</area></div>
             </aside>
           </article>
       </div>
@@ -308,7 +308,7 @@ elementName: area
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines in which tab or window the clicked area will show up.</p>
+          <p>Определяет в какой вкладке или окне появится нажатая область .</p>
 
         </div>
       </header>
@@ -322,7 +322,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Opens in a new browsing context, which is usually a <strong>new tab</strong>.</p>
+                <p>Открывает в новом окне браузера, которое обычно является <strong>новой вкладкой</strong>.</p>
 
               </div>
             </header>
@@ -338,7 +338,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Opens in the current tab.</p>
+                <p>Открывает в текущей вкладке.</p>
 
               </div>
             </header>
@@ -354,7 +354,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Opens in the parent browsing context, or <code>_self</code> is there is none.</p>
+                <p>Открывает в родительском всплывающем окне, используйте <code>_self</code>. если такого нет.</p>
 
               </div>
             </header>
@@ -370,7 +370,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Opens in the top browsing context, or <code>_self</code> is there is none.</p>
+                <p>Открывает в верхнем всплывающем окне, используйте  <code>_self</code> если такого нет.</p>
 
               </div>
             </header>
