@@ -85,15 +85,15 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 5,
-            "@document": 8,
+            "@document": 9,
             "@form": 5,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 2,
-            "@session": 8,
-            "@tab": 8,
+            "@session": 9,
+            "@tab": 9,
             "@tree": 2,
-            "@undoManager": 8
+            "@undoManager": 9
         }
     },
     "findinfiles": {
@@ -111,7 +111,7 @@
     },
     "panecycle": {
         "json()": [
-            "tab7"
+            "tab8"
         ]
     },
     "panels": {
@@ -204,7 +204,9 @@
                 "/li",
                 "/link",
                 "/main",
-                "/map"
+                "/map",
+                "/mark",
+                "/meta"
             ]
         }
     },
@@ -220,9 +222,10 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/map/index.php",
+            "focus": "/mark/index.php",
             "meta": {
                 "accessList": [
+                    "tab8",
                     "tab7"
                 ]
             },
@@ -233,7 +236,27 @@
                     "name": "tab7",
                     "path": "/map/index.php",
                     "className": [
-                        "tab7",
+                        "tab7"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1489091646413
+                        },
+                        "filter": true,
+                        "title": "index.php",
+                        "tooltip": "/map/index.php",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab8",
+                    "path": "/mark/index.php",
+                    "className": [
+                        "tab8",
                         "focus"
                     ],
                     "document": {
@@ -243,7 +266,7 @@
                         },
                         "filter": true,
                         "title": "index.php",
-                        "tooltip": "/map/index.php",
+                        "tooltip": "/mark/index.php",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -257,7 +280,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/map/index.php"
+            "/meta/index.html"
         ]
     }
 }

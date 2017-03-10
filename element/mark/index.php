@@ -27,7 +27,7 @@ elementName: mark
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines <strong>highlighted text</strong>.</p>
+      <p>Определяет <strong>выделенный текст</strong>.</p>
 
     </div>
   </header>
@@ -38,8 +38,8 @@ elementName: mark
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#mark-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output">We use HTML5 to write <mark>content</mark> on the Web.</div>
-          <div id="mark-example-0-code" class="example-code">{% highlight html %}We use HTML5 to write <mark>content</mark> on the Web.{% endhighlight %}</div>
+            <div class="example-output">Мы используем HTML5 что бы писать любой <mark>контент</mark> в сети.</div>
+          <div id="mark-example-0-code" class="example-code">{% highlight html %}Мы используем HTML5 что бы писать любой <mark>контент</mark> в сети.{% endhighlight %}</div>
         </article>
       </div>
 

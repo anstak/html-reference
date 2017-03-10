@@ -82,7 +82,7 @@ elementName: map
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The <code>&lt;img usemap=&quot;#world-continents&quot;&gt;</code> will use this map as overlay.</p>
+                <p><code>&lt;img usemap=&quot;#world-continents&quot;&gt;</code> будет использовать эту карту в качестве наложения.</p>
 
               </div>
             </header>
