@@ -27,7 +27,7 @@ elementName: meter
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a <strong>horizontal meter</strong>.</p>
+      <p>Определяет <strong>горизонтальный измеритель</strong>.</p>
 
     </div>
   </header>
@@ -38,7 +38,7 @@ elementName: meter
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#meter-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output"><meter value="0.7">Progress</meter></div>
+            <div class="example-output"><meter value="0.7">Прогресс</meter></div>
           <div id="meter-example-0-code" class="example-code">{% highlight html %}<meter value="0.7">Progress</meter>{% endhighlight %}</div>
         </article>
       </div>
@@ -48,15 +48,15 @@ elementName: meter
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#meter-example-1-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output"><meter min="0" low="16" value="71" high="92" max="100">Alex</meter><br>
-<meter min="0" low="16" value="16" high="92" max="100">Brandon</meter><br>
-<meter min="0" low="16" value="40" high="92" max="100">Charlotte</meter><br>
-<meter min="0" low="16" value="92" high="92" max="100">Sam</meter>
+            <div class="example-output"><meter min="0" low="16" value="71" high="92" max="100">Алекс</meter><br>
+<meter min="0" low="16" value="16" high="92" max="100">Брэндон</meter><br>
+<meter min="0" low="16" value="40" high="92" max="100">Шарлотта</meter><br>
+<meter min="0" low="16" value="92" high="92" max="100">Сэм</meter>
 </div>
-          <div id="meter-example-1-code" class="example-code">{% highlight html %}<meter min="0" low="16" value="71" high="92" max="100">Alex</meter><br>
-<meter min="0" low="16" value="16" high="92" max="100">Brandon</meter><br>
-<meter min="0" low="16" value="40" high="92" max="100">Charlotte</meter><br>
-<meter min="0" low="16" value="92" high="92" max="100">Sam</meter>
+          <div id="meter-example-1-code" class="example-code">{% highlight html %}<meter min="0" low="16" value="71" high="92" max="100">Алекс</meter><br>
+<meter min="0" low="16" value="16" high="92" max="100">Брэндон</meter><br>
+<meter min="0" low="16" value="40" high="92" max="100">Шарлотта</meter><br>
+<meter min="0" low="16" value="92" high="92" max="100">Сэм</meter>
 {% endhighlight %}</div>
         </article>
       </div>
@@ -69,7 +69,7 @@ elementName: meter
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the value of the meter, on the scale defined by the <code>max</code> attribute.</p>
+          <p>Определяет значение измерителя в масштабе, определяемом с помощью атрибута <code>max</code>.</p>
 
             <strong class="attribute-is-required">Обязательный аттрибут.</strong>
         </div>
@@ -84,7 +84,7 @@ elementName: meter
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use <strong>decimal</strong> and <strong>negative</strong> numbers. It must be between the <code>min</code> and <code>max</code> values.</p>
+                <p>Вы можете использовать <strong>десятичные дроби</strong> и <strong>отрицательные</strong> числа. Они должны находиться между <code>min</code> и <code>max</code> значениями.</p>
 
               </div>
             </header>
@@ -100,7 +100,7 @@ elementName: meter
                   </code>
                 </h4>
               <div class="value-description">
-                <p>If you use a value that is lower than the minimum, the meter will be empty.</p>
+                <p>Если вы используете значение которое ниже минимума, то измеритель будет пустым.</p>
 
               </div>
             </header>
@@ -116,7 +116,7 @@ elementName: meter
                   </code>
                 </h4>
               <div class="value-description">
-                <p>If you use a value that is higher than the maximum, the meter will be full.</p>
+                <p>Если вы используете значение выше максимального, измеритель будет заполнен.</p>
 
               </div>
             </header>
@@ -134,7 +134,7 @@ elementName: meter
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the maximum value possible on the meter.</p>
+          <p>Определяет максимальное значение, возможное на измерителе.</p>
 
         </div>
       </header>
@@ -149,7 +149,7 @@ elementName: meter
                 </h4>
               <div class="value-description">
                   <strong class="value-is-default">Default.</strong>
-                <p>You can use <strong>decimal</strong> and <strong>negative</strong> numbers.</p>
+                <p>Вы можете использовать <strong>десятичные дроби</strong> и <strong>отрицательные</strong> числа.</p>
 
               </div>
             </header>
@@ -165,7 +165,7 @@ elementName: meter
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use <strong>decimal</strong> and <strong>negative</strong> numbers.</p>
+                <p>Вы можете использовать <strong>десятичные дроби</strong> и <strong>отрицательные</strong> числа.</p>
 
               </div>
             </header>
@@ -183,7 +183,7 @@ elementName: meter
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the minimum value possible on the meter.</p>
+          <p>Определяет минимальное значение, возможное на измерителе.</p>
 
         </div>
       </header>
@@ -198,7 +198,7 @@ elementName: meter
                 </h4>
               <div class="value-description">
                   <strong class="value-is-default">Default.</strong>
-                <p>You can use <strong>decimal</strong> and <strong>negative</strong> numbers.</p>
+                <p>Вы можете использовать <strong>десятичные дроби</strong> и <strong>отрицательные</strong> числа.</p>
 
               </div>
             </header>
@@ -214,7 +214,7 @@ elementName: meter
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use <strong>decimal</strong> and <strong>negative</strong> numbers.</p>
+                <p>Вы можете использовать <strong>десятичные дроби</strong> и <strong>отрицательные</strong> числа.</p>
 
               </div>
             </header>
@@ -232,7 +232,7 @@ elementName: meter
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the lowest value across the range defined by the meter.</p>
+          <p>Определяет самое низкое значение в диапазоне, определенном измерителем.</p>
 
         </div>
       </header>
@@ -246,7 +246,7 @@ elementName: meter
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The value must be higher than <code>min</code> and lower than <code>high</code>.</p>
+                <p>Значение должно быть больше <code>min</code> и меньше чем <code>high</code>.</p>
 
               </div>
             </header>
@@ -264,7 +264,7 @@ elementName: meter
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the highest value across the range defined by the meter.</p>
+          <p>Определяет самое высокое значение в диапазоне, определенном измерителем.</p>
 
         </div>
       </header>
@@ -278,7 +278,7 @@ elementName: meter
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The value must be lower than <code>max</code> and higher than <code>low</code>.</p>
+                <p>Значение должно быть меньше чем <code>max</code> и больше чем <code>low</code>.</p>
 
               </div>
             </header>

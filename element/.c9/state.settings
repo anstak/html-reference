@@ -85,15 +85,15 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 5,
-            "@document": 9,
+            "@document": 15,
             "@form": 5,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 2,
-            "@session": 9,
-            "@tab": 9,
+            "@session": 15,
+            "@tab": 13,
             "@tree": 2,
-            "@undoManager": 9
+            "@undoManager": 15
         }
     },
     "findinfiles": {
@@ -111,7 +111,7 @@
     },
     "panecycle": {
         "json()": [
-            "tab8"
+            "tab12"
         ]
     },
     "panels": {
@@ -142,7 +142,7 @@
         }
     },
     "projecttree": {
-        "@scrollpos": 1907,
+        "@scrollpos": 2322,
         "@showfs": true,
         "expanded": {
             "json()": [
@@ -206,7 +206,15 @@
                 "/main",
                 "/map",
                 "/mark",
-                "/meta"
+                "/meta",
+                "/meter",
+                "/nav",
+                "/noframes",
+                "/noscript",
+                "/object",
+                "/ol",
+                "/optgroup",
+                "/option"
             ]
         }
     },
@@ -222,51 +230,30 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/mark/index.php",
+            "focus": "/option/index.php",
             "meta": {
                 "accessList": [
-                    "tab8",
-                    "tab7"
+                    "tab12"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab7",
-                    "path": "/map/index.php",
+                    "name": "tab12",
+                    "path": "/option/index.php",
                     "className": [
-                        "tab7"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1489091646413
-                        },
-                        "filter": true,
-                        "title": "index.php",
-                        "tooltip": "/map/index.php",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab8",
-                    "path": "/mark/index.php",
-                    "className": [
-                        "tab8",
+                        "tab12",
                         "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1488692702147
+                            "timestamp": 1488692702163
                         },
                         "filter": true,
                         "title": "index.php",
-                        "tooltip": "/mark/index.php",
+                        "tooltip": "/option/index.php",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -280,7 +267,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/meta/index.html"
+            "/option/index.php"
         ]
     }
 }

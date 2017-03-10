@@ -23,7 +23,7 @@ elementName: option
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines an <strong>option</strong> within a <code>&lt;select&gt;</code> dropdown.</p>
+      <p>Опрелеляет <strong>опцию</strong> в пределах <code>&lt;select&gt;</code> выпадающего списка.</p>
 
     </div>
   </header>
@@ -35,32 +35,32 @@ elementName: option
         </p>
         <article class="example-preview" translate="no">
             <div class="example-output"><select name="country">
-  <option value="Argentina">Argentina</option>
-  <option value="Bolivia">Bolivia</option>
-  <option value="Brazil">Brazil</option>
-  <option value="Chile">Chile</option>
-  <option value="Colombia">Colombia</option>
-  <option value="Ecuador">Ecuador</option>
-  <option value="Guyana">Guyana</option>
-  <option value="Paraguay">Paraguay</option>
-  <option value="Peru">Peru</option>
-  <option value="Suriname">Suriname</option>
-  <option value="Uruguay">Uruguay</option>
-  <option value="Venezuela">Venezuela</option>
+  <option value="Argentina">Аргентина</option>
+  <option value="Bolivia">Боливия</option>
+  <option value="Brazil">Бразилия</option>
+  <option value="Chile">Чили</option>
+  <option value="Colombia">Колумбия</option>
+  <option value="Ecuador">Эквадор</option>
+  <option value="Guyana">Гуана</option>
+  <option value="Paraguay">Парагвай</option>
+  <option value="Peru">Перу</option>
+  <option value="Suriname">Суринам</option>
+  <option value="Uruguay">Уругвай</option>
+  <option value="Venezuela">Венесуэла</option>
 </select></div>
           <div id="option-example-0-code" class="example-code">{% highlight html %}<select name="country">
-  <option value="Argentina">Argentina</option>
-  <option value="Bolivia">Bolivia</option>
-  <option value="Brazil">Brazil</option>
-  <option value="Chile">Chile</option>
-  <option value="Colombia">Colombia</option>
-  <option value="Ecuador">Ecuador</option>
-  <option value="Guyana">Guyana</option>
-  <option value="Paraguay">Paraguay</option>
-  <option value="Peru">Peru</option>
-  <option value="Suriname">Suriname</option>
-  <option value="Uruguay">Uruguay</option>
-  <option value="Venezuela">Venezuela</option>
+  <option value="Argentina">Аргентина</option>
+  <option value="Bolivia">Боливия</option>
+  <option value="Brazil">Бразилия</option>
+  <option value="Chile">Чили</option>
+  <option value="Colombia">Колумбия</option>
+  <option value="Ecuador">Эквадор</option>
+  <option value="Guyana">Гуана</option>
+  <option value="Paraguay">Парагвай</option>
+  <option value="Peru">Перу</option>
+  <option value="Suriname">Суринам</option>
+  <option value="Uruguay">Уругвай</option>
+  <option value="Venezuela">Венесуэла</option>
 </select>{% endhighlight %}</div>
         </article>
       </div>
@@ -73,7 +73,7 @@ elementName: option
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the <code>&lt;select&gt;</code> value if this option is selected.</p>
+          <p>Определяет значение элемента <code>&lt;select&gt;</code> если используется <code>option</code>.</p>
 
             <strong class="attribute-is-required">Обязательный аттрибут.</strong>
         </div>
@@ -88,11 +88,11 @@ elementName: option
                   </code>
                 </h4>
               <div class="value-description">
-                <p>This value will be sent to the server when the form is submitted.</p>
+                <p>Это значение будет отослано на сервер, когда форма будет отправлена.</p>
 
 {% highlight html %}
 <select>
-  <option value="south-africa">South Africa</option>
+  <option value="south-africa">Южная Африка</option>
 </select>
 {% endhighlight %}
 
@@ -100,7 +100,7 @@ elementName: option
             </header>
             <aside class="value-preview">
               <div class="value-output"><select>
-  <option value="south-africa">South Africa</option>
+  <option value="south-africa">Южная Африка</option>
 </select></div>
             </aside>
           </article>
@@ -114,7 +114,7 @@ elementName: option
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines a label for the option.</p>
+          <p>Определяет метку опции</p>
 
         </div>
       </header>
@@ -124,15 +124,15 @@ elementName: option
             <header class="value-header">
                 <h4 class="value-name">
                   <code class="tag" data-tooltip="Скопировать label=&quot;Republic of South Africa&quot;" data-clipboard-text="label=&quot;Republic of South Africa&quot;">
-                      "Republic of South Africa"
+                      "Република Южной Африки"
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The label will replace the option inner text.</p>
+                <p>Метка заменит текст опции.</p>
 
 {% highlight html %}
 <select>
-  <option value="south-africa" label="Republic of South Africa">South Africa</option>
+  <option value="south-africa" label="Република Южной Африки">Южная Африка</option>
 </select>
 {% endhighlight %}
 
@@ -140,7 +140,7 @@ elementName: option
             </header>
             <aside class="value-preview">
               <div class="value-output"><select>
-  <option value="south-africa" label="Republic of South Africa">South Africa</option>
+  <option value="south-africa" label="Република Южной Африки">Южная Африка</option>
 </select></div>
             </aside>
           </article>
@@ -154,9 +154,9 @@ elementName: option
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Disables the option.</p>
+          <p>Отлючает опцию.</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Аттрибут не обязателен.</strong>
         </div>
       </header>
 
@@ -164,17 +164,17 @@ elementName: option
           <article id="option-disabled-undefined" class="value">
             <header class="value-header">
               <div class="value-description">
-                <p>The option remains visible but is not selectable anymore.</p>
+                <p>Опция останется видимой, но больше не будет выбираться.</p>
 
 {% highlight html %}
 <select>
-  <option>Monday</option>
-  <option>Tuesday</option>
-  <option disabled>Wednesday</option>
-  <option disabled>Thursday</option>
-  <option>Friday</option>
-  <option>Saturday</option>
-  <option>Sunday</option>
+  <option>Понедельник</option>
+  <option>Вторник</option>
+  <option disabled>Среда</option>
+  <option disabled>Четверг</option>
+  <option>Пятница</option>
+  <option>Суббота</option>
+  <option>Воскресенье</option>
 </select>
 {% endhighlight %}
 
@@ -182,13 +182,13 @@ elementName: option
             </header>
             <aside class="value-preview">
               <div class="value-output"><select>
-  <option>Monday</option>
-  <option>Tuesday</option>
-  <option disabled>Wednesday</option>
-  <option disabled>Thursday</option>
-  <option>Friday</option>
-  <option>Saturday</option>
-  <option>Sunday</option>
+ <option>Понедельник</option>
+  <option>Вторник</option>
+  <option disabled>Среда</option>
+  <option disabled>Четверг</option>
+  <option>Пятница</option>
+  <option>Суббота</option>
+  <option>Воскресенье</option>
 </select></div>
             </aside>
           </article>
@@ -202,9 +202,9 @@ elementName: option
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Selects the option when the web page loads.</p>
+          <p>Выбирает опцию при загрузке веб-страницы.</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Аттрибут не обязателен.</strong>
         </div>
       </header>
 
@@ -215,13 +215,13 @@ elementName: option
                 
 {% highlight html %}
 <select>
-  <option>Monday</option>
-  <option>Tuesday</option>
-  <option>Wednesday</option>
-  <option>Thursday</option>
-  <option selected>Friday</option>
-  <option>Saturday</option>
-  <option>Sunday</option>
+  <option>Понедельник</option>
+  <option>Вторник</option>
+  <option>Среда</option>
+  <option>Четверг</option>
+  <option selected>Пятница</option>
+  <option>Суббота</option>
+  <option>Воскресенье</option>
 </select>
 {% endhighlight %}
 
@@ -229,13 +229,13 @@ elementName: option
             </header>
             <aside class="value-preview">
               <div class="value-output"><select>
-  <option>Monday</option>
-  <option>Tuesday</option>
-  <option>Wednesday</option>
-  <option>Thursday</option>
-  <option selected>Friday</option>
-  <option>Saturday</option>
-  <option>Sunday</option>
+    <option>Понедельник</option>
+  <option>Вторник</option>
+  <option>Среда</option>
+  <option>Четверг</option>
+  <option selected>Пятница</option>
+  <option>Суббота</option>
+  <option>Воскресенье</option>
 </select></div>
             </aside>
           </article>

@@ -26,7 +26,7 @@ elementName: object
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a container for <strong>external resource</strong>.</p>
+      <p>Определяет контейнер для  <strong>внешнего ресурса</strong>.</p>
 
     </div>
   </header>
@@ -40,12 +40,12 @@ elementName: object
             <div class="example-output"><object type="application/x-shockwave-flash" data="/assets/golf.swf" width="800" height="360">
   <param name="movie" value="/assets/golf.swf">
   <param name="wmode" value="transparent">
-  <p>You need to enable Flash to view this content.</p>
+  <p>Вам нужно подключить Flash что бы увидеть содержимое.</p>
 </object></div>
           <div id="object-example-0-code" class="example-code">{% highlight html %}<object type="application/x-shockwave-flash" data="/assets/golf.swf" width="800" height="360">
   <param name="movie" value="/assets/golf.swf">
   <param name="wmode" value="transparent">
-  <p>You need to enable Flash to view this content.</p>
+  <p>Вам нужно подключить Flash что бы увидеть содержимое.</p>
 </object>{% endhighlight %}</div>
         </article>
       </div>
@@ -58,7 +58,7 @@ elementName: object
           </code>
         </h3>
         <div class="attribute-description">
-          <p>The URL of the object data.</p>
+          <p>URL-адрес данных объекта.</p>
 
         </div>
       </header>
@@ -72,7 +72,7 @@ elementName: object
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The value must be a valid URL.</p>
+                <p>Значение должно быть достоверным URL-адресом.</p>
 
               </div>
             </header>
@@ -90,7 +90,7 @@ elementName: object
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the type of the application.</p>
+          <p>Определяет тип приложения.</p>
 
         </div>
       </header>
@@ -104,7 +104,7 @@ elementName: object
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The value must be a valid <a href="https://developer.mozilla.org/en-US/docs/Glossary/MIME_type">content type</a>.</p>
+                <p>Значение должно быть допустимым <a href="https://developer.mozilla.org/en-US/docs/Glossary/MIME_type">MIME-типом</a>.</p>
 
               </div>
             </header>
@@ -122,7 +122,7 @@ elementName: object
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the height of the object.</p>
+          <p>Определяет высоту обьекта.</p>
 
         </div>
       </header>
@@ -136,7 +136,7 @@ elementName: object
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The height in pixels.</p>
+                <p>Высота в пикселях.</p>
 
               </div>
             </header>
@@ -154,7 +154,7 @@ elementName: object
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the width of the object.</p>
+          <p>Определяет ширину обьекта.</p>
 
         </div>
       </header>
@@ -168,7 +168,7 @@ elementName: object
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The width in pixels.</p>
+                <p>Ширина в пикселях.</p>
 
               </div>
             </header>

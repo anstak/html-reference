@@ -26,7 +26,7 @@ elementName: noscript
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines content displayed when the browser does not have <strong>JavaScript</strong> enabled.</p>
+      <p>Определяет содержимое, отображаемое, когда браузер не поддерживает <strong>JavaScript</strong>.</p>
 
     </div>
   </header>
@@ -37,8 +37,8 @@ elementName: noscript
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#noscript-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output"><noscript>Please enable JavaScript.</noscript></div>
-          <div id="noscript-example-0-code" class="example-code">{% highlight html %}<noscript>Please enable JavaScript.</noscript>{% endhighlight %}</div>
+            <div class="example-output"><noscript>Пожалуйста подключите поддержку JavaScript.</noscript></div>
+          <div id="noscript-example-0-code" class="example-code">{% highlight html %}<noscript>Пожалуйста подключите поддержку JavaScript.</noscript>{% endhighlight %}</div>
         </article>
       </div>
       <div id="noscript-example-1" class="example">

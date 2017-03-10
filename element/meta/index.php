@@ -23,7 +23,7 @@ elementName: meta
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines <strong>metadata</strong> attached to a web page.</p>
+      <p>Определяет <strong>метаданные</strong>, прикрепленные к веб-странице.</p>
 
     </div>
   </header>
@@ -46,7 +46,7 @@ elementName: meta
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#meta-example-1-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-          <div id="meta-example-1-code" class="example-code">{% highlight html %}<!-- Refresh the page every 5 seconds -->
+          <div id="meta-example-1-code" class="example-code">{% highlight html %}<!-- Обновляйте страницу каждые 5 минут -->
 <meta http-equiv="refresh" content="5">{% endhighlight %}</div>
         </article>
       </div>
@@ -56,7 +56,7 @@ elementName: meta
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#meta-example-2-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-          <div id="meta-example-2-code" class="example-code">{% highlight html %}<!-- Redirect instantly to http://cssreference.io -->
+          <div id="meta-example-2-code" class="example-code">{% highlight html %}<!-- Мгновенно перенаправляет на http://cssreference.io -->
 <meta http-equiv="refresh" content="0; url=http://cssreference.io">{% endhighlight %}</div>
         </article>
       </div>
@@ -69,7 +69,7 @@ elementName: meta
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the character encoding for the whole web page.</p>
+          <p>Определяет кодировку символов для всей веб-страницы.</p>
 
         </div>
       </header>
@@ -83,7 +83,7 @@ elementName: meta
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The value must be a valid <a href="https://www.iana.org/assignments/character-sets/character-sets.xhtml">character set</a>.</p>
+                <p>Значение должно быть допустимым <a href="https://www.iana.org/assignments/character-sets/character-sets.xhtml">набором символов</a>.</p>
 
               </div>
             </header>
@@ -101,7 +101,7 @@ elementName: meta
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines meta rules for the web page.</p>
+          <p>Определяет мета-правила веб-страницы.</p>
 
         </div>
       </header>
@@ -115,7 +115,7 @@ elementName: meta
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Defines a link to a web page&#39;s <a href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives">content policies</a>.</p>
+                <p>Определяет ссылку на <a href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP/CSP_policy_directives">политику содержимого </a> всей веб-страницы.</p>
 
               </div>
             </header>
@@ -131,7 +131,7 @@ elementName: meta
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Allows to refresh the web page every N seconds, or even redirect to another URL.</p>
+                <p>Позволяет обновлять страницу каждые n-секунд, и даже перенаправлять на другой URL-адрес.</p>
 
               </div>
             </header>
@@ -147,7 +147,7 @@ elementName: meta
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Defines which Internet Explorer verison the web page should be rendered as.</p>
+                <p>Определяет версию браузера, через которую возможно отображение веб-страницы.</p>
 
               </div>
             </header>
@@ -165,7 +165,7 @@ elementName: meta
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines additional information attached to the web page.</p>
+          <p>Определяет дополнительную информацию, прикрепленную к веб-странице.</p>
 
         </div>
       </header>
@@ -179,7 +179,7 @@ elementName: meta
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Defines dimension and scaling rules for the viewport.</p>
+                <p>Определяет правила измерения и масштабирования.</p>
 
               </div>
             </header>
@@ -195,7 +195,7 @@ elementName: meta
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Defines a theme color which can be used by the browser or the operating system.</p>
+                <p>Определяет цвет темы, который может использоваться браузером или операционной системой.</p>
 
               </div>
             </header>
@@ -213,7 +213,7 @@ elementName: meta
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the content of the metadata. This varies according to the <code>name</code> or <code>http-equiv</code> value.</p>
+          <p>Определяет содержимое метаданных. Зависит от значения аттрибутов <code>name</code> и <code>http-equiv</code>.</p>
 
         </div>
       </header>
@@ -227,7 +227,7 @@ elementName: meta
                   </code>
                 </h4>
               <div class="value-description">
-                <p>For the <code>viewport</code> metadata, you can specify the width and initial scale of the web page.</p>
+                <p>Для метаданных типа <code>viewport</code>, вы можете указать ширину и начальный масштаб веб-страницы.</p>
 
               </div>
             </header>
@@ -243,7 +243,7 @@ elementName: meta
                   </code>
                 </h4>
               <div class="value-description">
-                <p>For the <code>refresh</code> metadata, you can specify how many seconds to wait before redirecting to another URL.</p>
+                <p>Для метаданных типа <code>refresh</code>, вы можете указать сколько секунд ждать перед перенаправлением на другой URL-адрес.</p>
 
               </div>
             </header>

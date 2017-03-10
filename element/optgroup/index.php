@@ -26,7 +26,7 @@ elementName: optgroup
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a <strong>group</strong> of <code>&lt;option&gt;</code> elements.</p>
+      <p>Определяет <strong>группу </strong>элементов <code>&lt;option&gt;</code>.</p>
 
     </div>
   </header>
@@ -38,31 +38,31 @@ elementName: optgroup
         </p>
         <article class="example-preview" translate="no">
             <div class="example-output"><select>
-  <optgroup label="South America">
-    <option>Uruguay</option>
-    <option>Brazil</option>
-    <option>Argentina</option>
+  <optgroup label="Южная Америка">
+    <option>Уругвай</option>
+    <option>Бразилия</option>
+    <option>Аргентина</option>
   </optgroup>
-  <optgroup label="Europe">
-    <option>Italy</option>
-    <option>Germany</option>
-    <option>England</option>
-    <option>France</option>
-    <option>Spain</option>
+  <optgroup label="Европа">
+    <option>Италия</option>
+    <option>Германия</option>
+    <option>Англия</option>
+    <option>Франция</option>
+    <option>Испания</option>
   </optgroup>
 </select></div>
           <div id="optgroup-example-0-code" class="example-code">{% highlight html %}<select>
-  <optgroup label="South America">
-    <option>Uruguay</option>
-    <option>Brazil</option>
-    <option>Argentina</option>
+  <optgroup label="Южная Америка">
+    <option>Уругвай</option>
+    <option>Бразилия</option>
+    <option>Аргентина</option>
   </optgroup>
-  <optgroup label="Europe">
-    <option>Italy</option>
-    <option>Germany</option>
-    <option>England</option>
-    <option>France</option>
-    <option>Spain</option>
+  <optgroup label="Европа">
+    <option>Италия</option>
+    <option>Германия</option>
+    <option>Англия</option>
+    <option>Франция</option>
+    <option>Испания</option>
   </optgroup>
 </select>{% endhighlight %}</div>
         </article>
@@ -74,39 +74,39 @@ elementName: optgroup
         </p>
         <article class="example-preview" translate="no">
             <div class="example-output"><select>
-  <optgroup label="Winter">
-    <option>December</option>
-    <option>January</option>
-    <option>February</option>
-    <option>March</option>
+  <optgroup label="Зима">
+    <option>Декабрь</option>
+    <option>Январь</option>
+    <option>Февраль</option>
+    <option>Март</option>
   </optgroup>
-  <optgroup label="Not winter" disabled>
-    <option>April</option>
-    <option>May</option>
-    <option>June</option>
-    <option>July</option>
-    <option>August</option>
-    <option>September</option>
-    <option>October</option>
-    <option>November</option>
+  <optgroup label="Не зима" disabled>
+    <option>Апрель</option>
+    <option>Май</option>
+    <option>Июнь</option>
+    <option>Июль</option>
+    <option>Август</option>
+    <option>Сентябрь</option>
+    <option>Октябрь</option>
+    <option>Ноябрь</option>
   </optgroup>
 </select></div>
           <div id="optgroup-example-1-code" class="example-code">{% highlight html %}<select>
-  <optgroup label="Winter">
-    <option>December</option>
-    <option>January</option>
-    <option>February</option>
-    <option>March</option>
+  <optgroup label="Зима">
+     <option>Декабрь</option>
+    <option>Январь</option>
+    <option>Февраль</option>
+    <option>Март</option>
   </optgroup>
-  <optgroup label="Not winter" disabled>
-    <option>April</option>
-    <option>May</option>
-    <option>June</option>
-    <option>July</option>
-    <option>August</option>
-    <option>September</option>
-    <option>October</option>
-    <option>November</option>
+  <optgroup label="Не зима" disabled>
+    <option>Апрель</option>
+    <option>Май</option>
+    <option>Июнь</option>
+    <option>Июль</option>
+    <option>Август</option>
+    <option>Сентябрь</option>
+    <option>Октябрь</option>
+    <option>Ноябрь</option>
   </optgroup>
 </select>{% endhighlight %}</div>
         </article>
@@ -120,7 +120,7 @@ elementName: optgroup
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the label for the whole group.</p>
+          <p>Определяет метку всей группы.</p>
 
         </div>
       </header>
@@ -134,23 +134,23 @@ elementName: optgroup
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The label is not selectable.</p>
+                <p>Метка не может быть выбрана.</p>
 
               </div>
             </header>
             <aside class="value-preview">
               <div class="value-output"><select>
-  <optgroup label="South America">
-    <option>Uruguay</option>
-    <option>Brazil</option>
-    <option>Argentina</option>
+  <optgroup label="Южная Америка">
+      <option>Уругвай</option>
+    <option>Бразилия</option>
+    <option>Аргентина</option>
   </optgroup>
-  <optgroup label="Europe">
-    <option>Italy</option>
-    <option>Germany</option>
-    <option>England</option>
-    <option>France</option>
-    <option>Spain</option>
+  <optgroup label="Европа">
+    <option>Италия</option>
+    <option>Германия</option>
+    <option>Англия</option>
+    <option>Франция</option>
+    <option>Испания</option>
   </optgroup>
 </select></div>
             </aside>
@@ -165,9 +165,9 @@ elementName: optgroup
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Disables all the options of the group.</p>
+          <p>Отключает все <strong>options</strong> группы.</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Значение не обязательно.</strong>
         </div>
       </header>
 

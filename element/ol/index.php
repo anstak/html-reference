@@ -26,7 +26,7 @@ elementName: ol
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines an <strong>ordered list</strong>.</p>
+      <p>Определяет <strong>упорядоченный список</strong>.</p>
 
     </div>
   </header>
@@ -38,16 +38,16 @@ elementName: ol
         </p>
         <article class="example-preview" translate="no">
             <div class="example-output"><ol>
-  <li>Step one</li>
-  <li>Step two</li>
+  <li>Шаг 1</li>
+  <li>Шаг 2</li>
   <li>????</li>
-  <li>PROFIT!!!</li>
+  <li>Профит!!!</li>
 </ol></div>
           <div id="ol-example-0-code" class="example-code">{% highlight html %}<ol>
-  <li>Step one</li>
-  <li>Step two</li>
+  <li>Шаг 1</li>
+  <li>Шаг 2</li>
   <li>????</li>
-  <li>PROFIT!!!</li>
+  <li>Профит!!!</li>
 </ol>{% endhighlight %}</div>
         </article>
       </div>
@@ -60,7 +60,7 @@ elementName: ol
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines how the list is numbered.</p>
+          <p>Определяет порядок нумерации списка.</p>
 
         </div>
       </header>
@@ -74,17 +74,17 @@ elementName: ol
                   </code>
                 </h4>
               <div class="value-description">
-                  <strong class="value-is-default">Default.</strong>
-                <p>Uses numbers.</p>
+                  <strong class="value-is-default">По умолчанию.</strong>
+                <p>Использует номера.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><ol  type="1"><li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-<li>Five</li></ol></div>
+              <div class="value-output"><ol  type="1"><li>Один</li>
+<li>Два</li>
+<li>Три</li>
+<li>Четыре</li>
+<li>Пять</li></ol></div>
             </aside>
           </article>
           <article id="ol-type-a" class="value">
@@ -95,16 +95,16 @@ elementName: ol
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Uses lowercase letters.</p>
+                <p>Использует буквы в нижнем регистре.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><ol  type="a"><li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-<li>Five</li></ol></div>
+              <div class="value-output"><ol  type="a"><li>Один</li>
+<li>Два</li>
+<li>Три</li>
+<li>Четыре</li>
+<li>Пять</li></ol></div>
             </aside>
           </article>
           <article id="ol-type-a" class="value">
@@ -115,16 +115,16 @@ elementName: ol
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Uses uppercase letters.</p>
+                <p>Использует буквы в верхнем р.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><ol  type="A"><li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-<li>Five</li></ol></div>
+              <div class="value-output"><ol  type="A"><li>Один</li>
+<li>Два</li>
+<li>Три</li>
+<li>Четыре</li>
+<li>Пять</li></ol></div>
             </aside>
           </article>
           <article id="ol-type-i" class="value">
@@ -135,16 +135,16 @@ elementName: ol
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Uses lowercase Roman numerals.</p>
+                <p>Использует строчные римские цифры.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><ol  type="i"><li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-<li>Five</li></ol></div>
+              <div class="value-output"><ol  type="i"><li>Один</li>
+<li>Два</li>
+<li>Три</li>
+<li>Четыре</li>
+<li>Пять</li></ol></div>
             </aside>
           </article>
           <article id="ol-type-i" class="value">
@@ -155,16 +155,16 @@ elementName: ol
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Uses uppercase Roman numerals.</p>
+                <p>Использует заглавные римские цифры.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><ol  type="I"><li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-<li>Five</li></ol></div>
+              <div class="value-output"><ol  type="I"><li>Один</li>
+<li>Два</li>
+<li>Три</li>
+<li>Четыре</li>
+<li>Пять</li></ol></div>
             </aside>
           </article>
       </div>
@@ -177,7 +177,7 @@ elementName: ol
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines a number to start the list with.</p>
+          <p>Определяет число, с которого начинается список.</p>
 
         </div>
       </header>
@@ -191,16 +191,16 @@ elementName: ol
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use any <strong>integer</strong>.</p>
+                <p>Вы можете использовать любое <strong>числовое значение</strong>.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><ol  start="3"><li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-<li>Five</li></ol></div>
+              <div class="value-output"><ol  start="3"><li>Один</li>
+<li>Два</li>
+<li>Три</li>
+<li>Четыре</li>
+<li>Пять</li></ol></div>
             </aside>
           </article>
       </div>
@@ -213,9 +213,9 @@ elementName: ol
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Reverses the order of the list.</p>
+          <p>Перенаправляет порядок в списке .</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Аттрибут не обязателен.</strong>
         </div>
       </header>
 
@@ -227,11 +227,11 @@ elementName: ol
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><ol  reversed><li>One</li>
-<li>Two</li>
-<li>Three</li>
-<li>Four</li>
-<li>Five</li></ol></div>
+              <div class="value-output"><ol  reversed><li>Один</li>
+<li>Два</li>
+<li>Три</li>
+<li>Четыре</li>
+<li>Пять</li></ol></div>
             </aside>
           </article>
       </div>

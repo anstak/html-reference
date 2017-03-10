@@ -27,7 +27,7 @@ elementName: nav
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a section with <strong>navigation links</strong>.</p>
+      <p>Определяет раздел c <strong>навигационными ссылками</strong>.</p>
 
     </div>
   </header>
@@ -39,14 +39,14 @@ elementName: nav
         </p>
         <article class="example-preview" translate="no">
             <div class="example-output"><nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
+    <a href="/">Главная</a>
+    <a href="/about">О Нас</a>
+    <a href="/contact">Контакты</a>
   </nav></div>
           <div id="nav-example-0-code" class="example-code">{% highlight html %}<nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
+    <a href="/">Главная</a>
+    <a href="/about">О Нас</a>
+    <a href="/contact">Контакты</a>
   </nav>{% endhighlight %}</div>
         </article>
       </div>

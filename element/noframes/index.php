@@ -26,7 +26,7 @@ elementName: noframes
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines content displayed when the browser does not support <strong>frames</strong>.</p>
+      <p>Определяет содержимое, отображаемое, когда браузер не поддерживает <code>&lt;frame&gt;</code>.</p>
 
     </div>
   </header>
@@ -40,12 +40,12 @@ elementName: noframes
             <div class="example-output"><frameset cols="50%, 50%">
   <frame src="{{site.url}}/element/frameset">
   <frame src="{{site.url}}/element/frame">
-  <noframes>This browser does not support framesets.</noframes>
+  <noframes>Этот браузер не поддерживает наборы фреймов.</noframes>
 </frameset></div>
           <div id="noframes-example-0-code" class="example-code">{% highlight html %}<frameset cols="50%, 50%">
   <frame src="{{site.url}}/element/frameset">
   <frame src="{{site.url}}/element/frame">
-  <noframes>This browser does not support framesets.</noframes>
+  <noframes>Этот браузер не поддерживает наборы фреймов.</noframes>
 </frameset>{% endhighlight %}</div>
         </article>
       </div>
