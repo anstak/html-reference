@@ -37,10 +37,10 @@ elementName: iframe
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#iframe-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output"><iframe src="http://cssreference.io">
+            <div class="example-output"><iframe src="https://atomcss.ru/htmlref/">
   Резервный текст для не поддерживаемых браузеров
 </iframe></div>
-          <div id="iframe-example-0-code" class="example-code">{% highlight html %}<iframe src="http://cssreference.io">
+          <div id="iframe-example-0-code" class="example-code">{% highlight html %}<iframe src="https://atomcss.ru/htmlref/">
   Резервный текст для не поддерживаемых браузеров
 </iframe>{% endhighlight %}</div>
         </article>
@@ -63,8 +63,8 @@ elementName: iframe
           <article id="iframe-src-httpcssreferenceio" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Скопировать src=&quot;http://cssreference.io&quot;" data-clipboard-text="src=&quot;http://cssreference.io&quot;">
-                      "http://cssreference.io"
+                  <code class="tag" data-tooltip="Скопировать src=&quot;https://atomcss.ru/htmlref&quot;" data-clipboard-text="src=&quot;https://atomcss.ru/htmlref&quot;">
+                      "https://atomcss.ru/htmlref"
                   </code>
                 </h4>
               <div class="value-description">
@@ -73,7 +73,7 @@ elementName: iframe
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><iframe  src="http://cssreference.io" height="200"></iframe></div>
+              <div class="value-output"><iframe  src="https://atomcss.ru/htmlref" height="200"></iframe></div>
             </aside>
           </article>
       </div>
@@ -100,7 +100,7 @@ elementName: iframe
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><iframe  src="http://cssreference.io" height="200" allowfullscreen></iframe></div>
+              <div class="value-output"><iframe  src="https://atomcss.ru/htmlref" height="200" allowfullscreen></iframe></div>
             </aside>
           </article>
       </div>
@@ -132,7 +132,7 @@ elementName: iframe
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><iframe  src="http://cssreference.io" height="50" allowfullscreen></iframe></div>
+              <div class="value-output"><iframe  src="https://atomcss.ru/htmlref" height="50" allowfullscreen></iframe></div>
             </aside>
           </article>
       </div>
@@ -164,7 +164,7 @@ elementName: iframe
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><iframe  src="http://cssreference.io" height="50" allowfullscreen width="150"></iframe></div>
+              <div class="value-output"><iframe  src="https://atomcss.ru/htmlref" height="50" allowfullscreen width="150"></iframe></div>
             </aside>
           </article>
       </div>

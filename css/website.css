@@ -1505,7 +1505,7 @@ pre {
         padding-left: 54px; }
       .main-navigation .menu_new > li:first-child > a:before {
         content: "";
-        background: url(http://atomcss.com/wp-content/uploads/2016/09/favicon.png) left center no-repeat;
+        background: url(https://atomcss.ru/wp-content/uploads/2017/03/favicon.png) left center no-repeat;
         height: 100%;
         width: 32px;
         position: absolute;
@@ -2236,7 +2236,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     left: 0;
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
     position: fixed;
     top: 50px;
     width: 226px; }
