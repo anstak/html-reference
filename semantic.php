@@ -1,8 +1,8 @@
 ---
 layout: collection
-collection_name: "Semantic"
+collection_name: "Семантические теги"
 menu_list: "semantic-list"
-description: "structure your web page semantically"
+description: "правильно структурировать семантику на вашем сайте"
 ---
 
 {% include collections/semantic.html %}

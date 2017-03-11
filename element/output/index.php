@@ -26,7 +26,7 @@ elementName: output
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines the result of a calculation or of user action.</p>
+      <p>Определяет результат вычисления или других действий пользователя.</p>
 
     </div>
   </header>
@@ -62,7 +62,7 @@ elementName: output
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the unique identifier for that input within the form. It allows the server to access each input&#39;s value when submitted.</p>
+          <p>Определяет уникальный идентификатор для входного значения в пределах формы. Это позволяет серверу получать доступ к каждому входному значению при его отправке.</p>
 
         </div>
       </header>
@@ -76,8 +76,8 @@ elementName: output
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The name value must be unique within the context of a <code>&lt;form&gt;</code> container.</p>
-<p>It can only contain alphanumeric characters <code>a-z</code> <code>A-Z</code> <code>0-9</code> and some special characters like <code>-</code> <code>_</code>… but no space.</p>
+                <p>Значение имени должно быть уникальным в пределах содержимого контейнера <code>&lt;form&gt;</code>.</p>
+<p>Может содержать только алфавитно-цифровые симоволы: <code>a-z</code> <code>A-Z</code> <code>0-9</code> и некоторые специальные символы, такие как <code>-</code> <code>_</code>… но не пробелы.</p>
 
               </div>
             </header>

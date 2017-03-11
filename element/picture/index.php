@@ -25,7 +25,7 @@ elementName: picture
         <span class="tag tag--experimental">Эксперементальный</span>
     </h2>
     <div class="element-description">
-      <p>Defines a container for <strong>sources</strong> of an <code>&lt;img&gt;</code> element.</p>
+      <p>Определяет контейнер с элементом <code>&lt;img&gt;</code> с аттрибутом <code>&lt;src&gt;</code> в котором хранится путь к картинке .</p>
 
     </div>
   </header>

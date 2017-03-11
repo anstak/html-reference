@@ -26,7 +26,7 @@ elementName: p
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a simple <strong>paragraph</strong> of text.</p>
+      <p>Определяет простой <strong>параграф</strong> текста.</p>
 
     </div>
   </header>
@@ -37,8 +37,8 @@ elementName: p
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#p-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output"><p>Hello World</p></div>
-          <div id="p-example-0-code" class="example-code">{% highlight html %}<p>Hello World</p>{% endhighlight %}</div>
+            <div class="example-output"><p>Привет Мир</p></div>
+          <div id="p-example-0-code" class="example-code">{% highlight html %}<p>Привет Мир</p>{% endhighlight %}</div>
         </article>
       </div>
       <div id="p-example-1" class="example">

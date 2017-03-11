@@ -1,8 +1,8 @@
 ---
 layout: collection
-collection_name: "Tables"
+collection_name: "Таблицы"
 menu_list: "tables-list"
-description: "build tables"
+description: "строить табличную верстку или табличные данные"
 ---
 
 {% include collections/tables.html %}

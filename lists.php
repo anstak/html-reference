@@ -1,8 +1,8 @@
 ---
 layout: collection
-collection_name: "Lists"
+collection_name: "Теги списков"
 menu_list: "lists-list"
-description: "build all kinds of lists"
+description: "строить все типы списков"
 ---
 
 {% include collections/lists.html %}

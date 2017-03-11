@@ -1,8 +1,8 @@
 ---
 layout: collection
-collection_name: "Forms"
+collection_name: "Теги для построения форм"
 menu_list: "forms-list"
-description: "build interactive forms"
+description: "строить HTML формы для вашего сайта"
 ---
 
 {% include collections/forms.html %}

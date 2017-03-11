@@ -1,8 +1,8 @@
 ---
 layout: collection
-collection_name: "Base elements"
+collection_name: "Базовые теги для HTML страницы"
 menu_list: "base-list"
-description: "build the most basic web page"
+description: "построить вам основу для HTML страницы, сайта"
 ---
 
 {% include collections/base.html %}

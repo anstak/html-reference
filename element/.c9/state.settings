@@ -85,15 +85,15 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 5,
-            "@document": 15,
+            "@document": 5,
             "@form": 5,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 2,
-            "@session": 15,
-            "@tab": 13,
+            "@session": 5,
+            "@tab": 4,
             "@tree": 2,
-            "@undoManager": 15
+            "@undoManager": 5
         }
     },
     "findinfiles": {
@@ -111,7 +111,7 @@
     },
     "panecycle": {
         "json()": [
-            "tab12"
+            "tab3"
         ]
     },
     "panels": {
@@ -142,7 +142,7 @@
         }
     },
     "projecttree": {
-        "@scrollpos": 2322,
+        "@scrollpos": 2501,
         "@showfs": true,
         "expanded": {
             "json()": [
@@ -214,7 +214,11 @@
                 "/object",
                 "/ol",
                 "/optgroup",
-                "/option"
+                "/option",
+                "/output",
+                "/p",
+                "/param",
+                "/picture"
             ]
         }
     },
@@ -230,30 +234,30 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/option/index.php",
+            "focus": "/picture/index.php",
             "meta": {
                 "accessList": [
-                    "tab12"
+                    "tab3"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab12",
-                    "path": "/option/index.php",
+                    "name": "tab3",
+                    "path": "/picture/index.php",
                     "className": [
-                        "tab12",
+                        "tab3",
                         "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1488692702163
+                            "timestamp": 1488692702171
                         },
                         "filter": true,
                         "title": "index.php",
-                        "tooltip": "/option/index.php",
+                        "tooltip": "/picture/index.php",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -267,7 +271,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/option/index.php"
+            "/picture/index.php"
         ]
     }
 }

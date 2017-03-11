@@ -23,7 +23,7 @@ elementName: param
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a <strong>parameter</strong> for an <code>&lt;object&gt;</code> element.</p>
+      <p>Определяет <strong>параметр</strong> для элемента <code>&lt;object&gt;</code>.</p>
 
     </div>
   </header>
@@ -37,12 +37,12 @@ elementName: param
             <div class="example-output"><object type="application/x-shockwave-flash" data="/assets/golf.swf" width="800" height="360">
   <param name="movie" value="/assets/golf.swf">
   <param name="wmode" value="transparent">
-  <p>You need to enable Flash to view this content.</p>
+  <p>Вам нужно подключить Flash что бы увидеть содержимое.</p>
 </object></div>
           <div id="param-example-0-code" class="example-code">{% highlight html %}<object type="application/x-shockwave-flash" data="/assets/golf.swf" width="800" height="360">
   <param name="movie" value="/assets/golf.swf">
   <param name="wmode" value="transparent">
-  <p>You need to enable Flash to view this content.</p>
+  <p>Вам нужно подключить Flash что бы увидеть содержимое.</p>
 </object>{% endhighlight %}</div>
         </article>
       </div>
@@ -55,7 +55,7 @@ elementName: param
           </code>
         </h3>
         <div class="attribute-description">
-          <p>The name of the parameter.</p>
+          <p>Имя параметра.</p>
 
         </div>
       </header>
@@ -69,7 +69,7 @@ elementName: param
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The object is a movie which needs the URL of a <code>.swf</code> file.</p>
+                <p>Объект - это видео, которому требуется URL-адрес с типом файла <code>.swf</code>.</p>
 
               </div>
             </header>
@@ -85,7 +85,7 @@ elementName: param
                   </code>
                 </h4>
               <div class="value-description">
-                <p>How the background of the object is handled.</p>
+                <p>Обработка фона обьекта.</p>
 
               </div>
             </header>
@@ -101,7 +101,7 @@ elementName: param
                   </code>
                 </h4>
               <div class="value-description">
-                <p>If the object is allowed to go fullscreen.</p>
+                <p>Позволяет открыть обьект на полный экран.</p>
 
               </div>
             </header>
@@ -119,7 +119,7 @@ elementName: param
           </code>
         </h3>
         <div class="attribute-description">
-          <p>The value attached to the parameter.</p>
+          <p>Значение связанное с параметром.</p>
 
         </div>
       </header>
@@ -133,7 +133,7 @@ elementName: param
                   </code>
                 </h4>
               <div class="value-description">
-                <p>If the parameter is <code>movie</code>, the  value is the URL to file.</p>
+                <p>Эсли параметр это <code>видео</code>, значение должно быть URL-адресом к файлу видео.</p>
 
               </div>
             </header>
@@ -149,7 +149,7 @@ elementName: param
                   </code>
                 </h4>
               <div class="value-description">
-                <p>If the parameter is <code>wmode</code>, the  value is either <code>window</code>, <code>direct</code>, <code>transparent</code>, <code>opaque</code>, or <code>gpu</code>.</p>
+                <p>Если параметр <code>wmode</code>, значение будет либо <code>window</code>, либо <code>direct</code>, либо <code>transparent</code>, либо <code>opaque</code>, либо <code>gpu</code>.</p>
 
               </div>
             </header>
