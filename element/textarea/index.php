@@ -26,7 +26,7 @@ elementName: textarea
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a <strong>multi-line text control</strong> within a web form.</p>
+      <p>Определяет <strong>многострочный текстовый элемент управления</strong> в пределах веб-формы.</p>
 
     </div>
   </header>
@@ -40,7 +40,7 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the unique identifier for that textarea within the form. It allows the server to access each textarea&#39;s value when submitted.</p>
+          <p>Определяет уникальный идентификатор для <code>&lt;textarea&gt;</code> в пределах формы. Это позволяет серверу получать доступ к значению каждого элемента <code>&lt;textarea&gt;</code> при его отправке.</p>
 
             <strong class="attribute-is-required">Обязательный аттрибут.</strong>
         </div>
@@ -55,13 +55,13 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The name value must be unique within the context of a <code>&lt;form&gt;</code> container.</p>
-<p>It can only contain alphanumeric characters <code>a-z</code> <code>A-Z</code> <code>0-9</code> and some special characters like <code>-</code> <code>_</code>… but no space.</p>
+                <p>Значение имени должно быть уникальным в пределах содержимого контейнера элемента <code>&lt;form&gt;</code>.</p>
+<p>Может содержать только алфавитно-цифровые символы: <code>a-z</code> <code>A-Z</code> <code>0-9</code> и некоторые специальные символы как <code>-</code> <code>_</code>… но не пробелы.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="10" placeholder="e.g. Hello my name is Alex" name="message"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="10" placeholder="Привет, моё имя Алексей" name="message"></textarea></div>
             </aside>
           </article>
       </div>
@@ -74,7 +74,7 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Determines if the browser can autocomplete the textarea.</p>
+          <p>Определяет, может ли браузер автозаполнять область текста..</p>
 
         </div>
       </header>
@@ -88,12 +88,12 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The browser will <strong>disable</strong> autocomplete functions..</p>
+                <p>Браузер <strong>отключит</strong> функцию автозаполнения.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="10" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="off"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="10" placeholder="Привет, моё имя Алексей" name="message" autocomplete="off"></textarea></div>
             </aside>
           </article>
           <article id="textarea-autocomplete-on" class="value">
@@ -104,12 +104,12 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The browser will <strong>enable</strong> autocomplete functions.</p>
+                <p>Браузер <strong>включит</strong> функцию автозаполнения.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="10" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="10" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on"></textarea></div>
             </aside>
           </article>
       </div>
@@ -122,7 +122,7 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the minimum amount of characters the textarea required to be valid.</p>
+          <p>Определяет минимальное количество символов, которое требуется для <code>&lt;textarea&gt;</code>.</p>
 
         </div>
       </header>
@@ -136,12 +136,12 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use <strong>integers</strong>.</p>
+                <p>Вы можете использовать только <strong>целые числа</strong>.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="10" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="10" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15"></textarea></div>
             </aside>
           </article>
       </div>
@@ -154,7 +154,7 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the maxlength amount of characters allowed.</p>
+          <p>Определяет максимально допустимое количество символов в <code>&lt;textarea&gt;</code>.</p>
 
         </div>
       </header>
@@ -168,12 +168,12 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use <strong>integers</strong>.</p>
+                <p>Вы можете использовать только <strong>целые числа</strong>.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="10" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="10" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140"></textarea></div>
             </aside>
           </article>
       </div>
@@ -186,7 +186,7 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines a non-selectable placeholder text that only appears when the textarea is empty.</p>
+          <p>Определяет невыделяемый текст-заполнитель, который виден, только когда текстовая область пуста.</p>
 
         </div>
       </header>
@@ -195,17 +195,17 @@ elementName: textarea
           <article id="textarea-placeholder-eg-hello-my-name-is-alex" class="value">
             <header class="value-header">
                 <h4 class="value-name">
-                  <code class="tag" data-tooltip="Скопировать placeholder=&quot;e.g. Hello my name is Alex&quot;" data-clipboard-text="placeholder=&quot;e.g. Hello my name is Alex&quot;">
-                      "e.g. Hello my name is Alex"
+                  <code class="tag" data-tooltip="Скопировать placeholder=&quot;Расскажите о себе&quot;" data-clipboard-text="placeholder=&quot;Расскажите о себе&quot;">
+                      "Расскажите о себе"
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can hint at the format expected for the textarea.</p>
+                <p>Вы можете оставить подсказку для пользователя, что ожидается вводить для текстового поля.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="10" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="10" placeholder="Расскажите о себе" name="message" autocomplete="on" minlength="15" maxlength="140"></textarea></div>
             </aside>
           </article>
       </div>
@@ -218,7 +218,7 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the number of columns.</p>
+          <p>Определяет количество столбцов.</p>
 
         </div>
       </header>
@@ -232,12 +232,12 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use <strong>integers</strong>.</p>
+                <p>Вы можете использовать только <strong>целые числа</strong>.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="10" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="10" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40"></textarea></div>
             </aside>
           </article>
       </div>
@@ -250,7 +250,7 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the number of rows.</p>
+          <p>Определяет количество строк.</p>
 
         </div>
       </header>
@@ -264,12 +264,12 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use <strong>integers</strong>.</p>
+                <p>Вы можете использовать только <strong>целые числа</strong>.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="5" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="5" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40"></textarea></div>
             </aside>
           </article>
       </div>
@@ -282,7 +282,7 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines how the text should be wrapped.</p>
+          <p>Определяет, как текст должен быть упакован.</p>
 
         </div>
       </header>
@@ -296,12 +296,12 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The text will always be wrapped depending on the <code>cols</code> value.</p>
+                <p>Текст всегда будет переноситься в зависимости от значения <code>cols</code>.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="5" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="hard"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="5" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="hard"></textarea></div>
             </aside>
           </article>
           <article id="textarea-wrap-soft" class="value">
@@ -312,12 +312,12 @@ elementName: textarea
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The text will only break when needed.</p>
+                <p>Текст будет переноситься только при необходимости.</p>
 
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="5" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft"></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="5" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft"></textarea></div>
             </aside>
           </article>
       </div>
@@ -330,9 +330,9 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Disables the textarea.</p>
+          <p>Отключает область текста.</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Аттрибут не обязателен.</strong>
         </div>
       </header>
 
@@ -344,7 +344,7 @@ elementName: textarea
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="5" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="5" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled></textarea></div>
             </aside>
           </article>
       </div>
@@ -357,9 +357,9 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Tells the browser that this textarea is <strong>required</strong>. Leaving it empty will show a warning.</p>
+          <p>Сообщает браузеру, что это текстовое поле является <strong>обязательным</strong>.Если оставить его пустым, появится предупреждение..</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Аттрибут не обязателен.</strong>
         </div>
       </header>
 
@@ -371,7 +371,7 @@ elementName: textarea
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="5" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled required></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="5" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled required></textarea></div>
             </aside>
           </article>
       </div>
@@ -384,9 +384,9 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Sets focus on the textarea when the web page loads.</p>
+          <p>Фокусирует пользователя на данное текстовое поле при загрузке веб-страницы.</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Аттрибут не обязателен.</strong>
         </div>
       </header>
 
@@ -398,7 +398,7 @@ elementName: textarea
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="5" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled required></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="5" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled required></textarea></div>
             </aside>
           </article>
       </div>
@@ -411,9 +411,9 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Turns the textarea into a read-only element.</p>
+          <p>Превращает текстовую область в элемент, доступный только для чтения.</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Аттрибут не обязателен.</strong>
         </div>
       </header>
 
@@ -425,7 +425,7 @@ elementName: textarea
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="5" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled required readonly></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="5" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled required readonly></textarea></div>
             </aside>
           </article>
       </div>
@@ -438,9 +438,9 @@ elementName: textarea
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Enables the browser spell checker.</p>
+          <p>Включает у браузера проверку правописания.</p>
 
-            <strong class="attribute-is-novalue">No value required.</strong>
+            <strong class="attribute-is-novalue">Аттрибут не обязателен.</strong>
         </div>
       </header>
 
@@ -452,7 +452,7 @@ elementName: textarea
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><textarea  columns="40" rows="5" placeholder="e.g. Hello my name is Alex" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled required readonly spellcheck></textarea></div>
+              <div class="value-output"><textarea  columns="40" rows="5" placeholder="Привет, моё имя Алексей" name="message" autocomplete="on" minlength="15" maxlength="140" cols="40" wrap="soft" disabled required readonly spellcheck></textarea></div>
             </aside>
           </article>
       </div>

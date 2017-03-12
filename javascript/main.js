@@ -1,4 +1,16 @@
+
+jQuery(document).ready(function($) {
+  'use strict';
+
+  var $navToggle = $('.nav-toggle', '.navbar');
+  $navToggle.on('click', function(){
+    $(this).toggleClass('active').parents('.navbar').find('.toolbar, .main-navigation, .mobile-socials').toggleClass('expanded');
+  });
+});
+
+
 document.addEventListener('DOMContentLoaded', function() {
+  
   var $root = document.documentElement;
   var template = $root.dataset.template;
 
@@ -13,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Menu: Search
   var $searchInput = document.getElementById('menu-search-input');
   var $menuList = document.getElementById('menu-list');
-  var $menuItems = document.querySelectorAll('.menu-item');
+  var $menuItems = document.querySelectorAll('#menu-list-ul .menu-item');
   var isFocused = false;
   var isSearching = false;
   var isModaling = false;

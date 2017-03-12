@@ -1501,9 +1501,9 @@ pre {
       display: block;
       float: left;
       margin: 0; }
-      .main-navigation .menu_new > li:first-child > a {
+      .main-navigation .menu_new > li.home-page > a {
         padding-left: 54px; }
-      .main-navigation .menu_new > li:first-child > a:before {
+      .main-navigation .menu_new > li.home-page > a:before {
         content: "";
         background: url(https://atomcss.ru/wp-content/uploads/2017/03/favicon.png) left center no-repeat;
         height: 100%;
@@ -1517,6 +1517,7 @@ pre {
         border: none;
         padding: 14px 36px;
         font-size: 14px;
+        position: relative;
         text-align: center; }
         .main-navigation .menu_new > li > a i {
           display: block;
@@ -1829,6 +1830,17 @@ pre {
 .htmlref h1 {
   font-size: 32px;
   font-weight: 400; }
+
+@media (max-width: 991px) {
+  .navbar-mobile {
+    height: 52px;
+    position: relative; }
+    .htmlref .navbar-mobile {
+      position: absolute;
+      top: 0;
+      margin-top: -52px;
+      right: 0;
+      width: 100vw; } }
 
 .input,
 .textarea,

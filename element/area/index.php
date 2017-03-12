@@ -228,7 +228,7 @@ elementName: area
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Определяет ссылку, на которую при клике на область, будет осуществляться переход.</p>
+          <p>Определяет URL-адрес по которому можно перейти.</p>
 
         </div>
       </header>
@@ -242,7 +242,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Вы можете переходить по <strong>абсолютному</strong> URL адресу.</p>
+                <p>Вы можете передать <strong>абсолютный</strong> URL-адрес.</p>
 
               </div>
             </header>
@@ -258,7 +258,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Вы можете переходить по URL адресу <strong>относительно</strong> корневого домена.</p>
+                <p>Вы можете передать URL-адрес <strong>относительно</strong> корневого домена.</p>
 
               </div>
             </header>
@@ -274,7 +274,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Вы можете выбрать элемент в пределах <em>одной и той же</em> страницы. На примере, мы выбираем элемент <code>&lt;div id=&quot;footer&quot;&gt;</code></p>
+                Вы можете указать ссылку на элемент в пределах <em>одной и той же</em> веб-страницы. Здесь мы делаем ссылку на элемент<code>&lt;div id="footer"&gt;</code>
 
               </div>
             </header>
@@ -290,7 +290,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Вы можете использовать <code>mailto</code> протокол. При клике на область откроется ваш почтовый клиент.</p>
+                Вы можете использовать протокол <code>mailto</code>. При нажатии на ссылку откроется почтовый клиент пользователя.
 
               </div>
             </header>
@@ -308,7 +308,7 @@ elementName: area
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Определяет в какой вкладке или окне появится нажатая область .</p>
+          <p>Определяет, в какой вкладке или окне будет открыта нажатая ссылка.</p>
 
         </div>
       </header>
@@ -354,7 +354,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Открывает в родительском всплывающем окне, используйте <code>_self</code>. если такого нет.</p>
+                <p>Открывает в родительском всплывающем окне, используется <code>_self</code>. если такого нет.</p>
 
               </div>
             </header>
@@ -370,7 +370,7 @@ elementName: area
                   </code>
                 </h4>
               <div class="value-description">
-                <p>Открывает в верхнем всплывающем окне, используйте  <code>_self</code> если такого нет.</p>
+                <p>Открывает в верхнем всплывающем окне, используется  <code>_self</code> если такого нет.</p>
 
               </div>
             </header>

@@ -27,7 +27,7 @@ elementName: template
         <span class="tag tag--experimental">Эксперементальный</span>
     </h2>
     <div class="element-description">
-      <p>Defines a placeholder for content that can be displayed using JavaScript.</p>
+      <p>Определяет заполнитель для контента, который может отображаться с помощью JavaScript.</p>
 
     </div>
   </header>

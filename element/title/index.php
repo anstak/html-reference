@@ -23,7 +23,7 @@ elementName: title
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines the <strong>title</strong> of the web page, displayed on the browser tab.</p>
+      <p>Определяет <strong>название</strong> веб-страницы, отображается на вкладке браузера.</p>
 
     </div>
   </header>
@@ -34,7 +34,7 @@ elementName: title
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#title-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-          <div id="title-example-0-code" class="example-code">{% highlight html %}<title>The title element - HTML Reference</title>{% endhighlight %}</div>
+          <div id="title-example-0-code" class="example-code">{% highlight html %}<title> title  тэг - HTML Справочник</title>{% endhighlight %}</div>
         </article>
       </div>
 

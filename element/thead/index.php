@@ -26,7 +26,7 @@ elementName: thead
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a group of <strong>table rows</strong> <code>&lt;tr&gt;</code> at the start of a <code>&lt;table&gt;</code>.</p>
+      <p>Определяет группу <strong>строк таблицы</strong> <code>&lt;tr&gt;</code> в начале элемента <code>&lt;table&gt;</code>.</p>
 
     </div>
   </header>
@@ -40,64 +40,64 @@ elementName: thead
             <div class="example-output"><table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Instrument</th>
+      <th>Имя</th>
+      <th>Инструмент</th>
     </tr>
   </thead>
   <tfoot>
     <tr>
-      <th>Name</th>
-      <th>Instrument</th>
+      <th>Имя</th>
+      <th>Инструмент</th>
     </tr>
   </tfoot>
   <tbody>
     <tr>
-      <td>John Lennon</td>
-      <td>Rhythm Guitar</td>
+      <td>Джон Ленон</td>
+      <td>Ритм гитара</td>
     </tr>
     <tr>
-      <td>Paul McCartney</td>
-      <td>Bass</td>
+      <td>Пол Маккартни</td>
+      <td>Басс</td>
     </tr>
     <tr>
-      <td>George Harrison</td>
-      <td>Lead Guitar</td>
+      <td>Джордж Хариссон</td>
+      <td>Соло гитара</td>
     </tr>
     <tr>
-      <td>Ringo Starr</td>
-      <td>Drums</td>
+      <td>Ринго Стар</td>
+      <td>Барабаны</td>
     </tr>
   </tbody>
 </table></div>
           <div id="thead-example-0-code" class="example-code">{% highlight html %}<table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Instrument</th>
+      <th>Имя</th>
+      <th>Инструмент</th>
     </tr>
   </thead>
   <tfoot>
     <tr>
-      <th>Name</th>
-      <th>Instrument</th>
+      <th>Имя</th>
+      <th>Инструмент</th>
     </tr>
   </tfoot>
   <tbody>
     <tr>
-      <td>John Lennon</td>
-      <td>Rhythm Guitar</td>
+      <td>Джон Ленон</td>
+      <td>Ритм гитара</td>
     </tr>
     <tr>
-      <td>Paul McCartney</td>
-      <td>Bass</td>
+      <td>Пол Маккартни</td>
+      <td>Басс</td>
     </tr>
     <tr>
-      <td>George Harrison</td>
-      <td>Lead Guitar</td>
+      <td>Джордж Хариссон</td>
+      <td>Соло гитара</td>
     </tr>
     <tr>
-      <td>Ringo Starr</td>
-      <td>Drums</td>
+      <td>Ринго Стар</td>
+      <td>Барабаны</td>
     </tr>
   </tbody>
 </table>{% endhighlight %}</div>

@@ -26,7 +26,7 @@ elementName: u
       </a>
     </h2>
     <div class="element-description">
-      <p>Makes an element&#39;s text <strong>underlined</strong>.</p>
+      <p>Делает текст <strong>подчеркнутым</strong>.</p>
 
     </div>
   </header>
@@ -37,8 +37,8 @@ elementName: u
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#u-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output">Hello <u>World</u></div>
-          <div id="u-example-0-code" class="example-code">{% highlight html %}Hello <u>World</u>{% endhighlight %}</div>
+            <div class="example-output">Привет <u>Мир</u></div>
+          <div id="u-example-0-code" class="example-code">{% highlight html %}Привет <u>Мир</u>{% endhighlight %}</div>
         </article>
       </div>
 

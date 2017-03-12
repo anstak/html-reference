@@ -26,7 +26,7 @@ elementName: ul
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines an <strong>unordered list</strong>.</p>
+      <p>Определяет <strong>неупорядоченный список</strong>.</p>
 
     </div>
   </header>
@@ -37,19 +37,19 @@ elementName: ul
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#ul-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output"><p>My shopping list:</p>
+            <div class="example-output"><p>Мой список покупок:</p>
 <ul>
-  <li>Milk</li>
-  <li>Bread</li>
-  <li>Chocolate</li>
-  <li>More chocolate</li>
+  <li>Молоко</li>
+  <li>Хлеб</li>
+  <li>Шоколадка</li>
+  <li>Больше Шоколада</li>
 </ul></div>
-          <div id="ul-example-0-code" class="example-code">{% highlight html %}<p>My shopping list:</p>
+          <div id="ul-example-0-code" class="example-code">{% highlight html %}<p>Мой список покупок:</p>
 <ul>
-  <li>Milk</li>
-  <li>Bread</li>
-  <li>Chocolate</li>
-  <li>More chocolate</li>
+  <li>Молоко</li>
+  <li>Хлеб</li>
+  <li>Шоколадка</li>
+  <li>Больше Шоколада</li>
 </ul>{% endhighlight %}</div>
         </article>
       </div>

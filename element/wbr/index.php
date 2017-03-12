@@ -28,7 +28,7 @@ elementName: wbr
         <span class="tag tag--experimental">Эксперементальный</span>
     </h2>
     <div class="element-description">
-      <p>Defines a location within a block of text where the browser could eventually insert <strong>line break</strong>.</p>
+      <p>Определяет местоположение в пределах блока текста, где браузер может вставить <strong>разрыв строки</strong>.</p>
 
     </div>
   </header>

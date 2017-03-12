@@ -26,7 +26,7 @@ elementName: address
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a block for <strong>contact information</strong>.</p>
+      <p>Определяет блок с <strong>контактной информацией</strong>.</p>
 
     </div>
   </header>
@@ -38,14 +38,14 @@ elementName: address
         </p>
         <article class="example-preview">
             <div class="example-output"><address>
-  Infinite Loop,<br>
-  Cupertino, CA<br>
-  95014, USA
+  ул.Арбат д.5, кв.2,<br>
+  г.Москва, Россия <br>
+  121099
 </address></div>
           <div id="address-example-0-code" class="example-code">{% highlight html %}<address>
-  Infinite Loop,<br>
-  Cupertino, CA<br>
-  95014, USA
+  ул.Арбат д.5, кв.2,<br>
+  г.Москва, Россия <br>
+  121099
 </address>{% endhighlight %}</div>
         </article>
       </div>

@@ -85,15 +85,15 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 5,
-            "@document": 19,
+            "@document": 1,
             "@form": 5,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 2,
-            "@session": 19,
-            "@tab": 18,
+            "@session": 1,
+            "@tab": 13,
             "@tree": 2,
-            "@undoManager": 19
+            "@undoManager": 1
         }
     },
     "findinfiles": {
@@ -111,7 +111,7 @@
     },
     "panecycle": {
         "json()": [
-            "tab17"
+            "tab12"
         ]
     },
     "panels": {
@@ -142,7 +142,7 @@
         }
     },
     "projecttree": {
-        "@scrollpos": 3247,
+        "@scrollpos": 101,
         "@showfs": true,
         "expanded": {
             "json()": [
@@ -214,34 +214,7 @@
                 "/object",
                 "/ol",
                 "/optgroup",
-                "/option",
-                "/output",
-                "/p",
-                "/param",
-                "/picture",
-                "/pre",
-                "/progress",
-                "/q",
-                "/rp",
-                "/rt",
-                "/rtc",
-                "/ruby",
-                "/s",
-                "/samp",
-                "/script",
-                "/section",
-                "/select",
-                "/slot",
-                "/small",
-                "/source",
-                "/span",
-                "/strong",
-                "/style",
-                "/sub",
-                "/summary",
-                "/sup",
-                "/table",
-                "/tbody"
+                "/option"
             ]
         }
     },
@@ -257,51 +230,30 @@
     },
     "tabs": {
         "json()": {
-            "focus": "/tbody/index.php",
+            "focus": "/option/index.php",
             "meta": {
                 "accessList": [
-                    "tab17",
-                    "tab16"
+                    "tab12"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab16",
-                    "path": "/table/index.php",
+                    "name": "tab12",
+                    "path": "/option/index.php",
                     "className": [
-                        "tab16"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1489256940677
-                        },
-                        "filter": true,
-                        "title": "index.php",
-                        "tooltip": "/table/index.php",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab17",
-                    "path": "/tbody/index.php",
-                    "className": [
-                        "tab17",
+                        "tab12",
                         "focus"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1488692702195
+                            "timestamp": 1489167358471
                         },
                         "filter": true,
                         "title": "index.php",
-                        "tooltip": "/tbody/index.php",
+                        "tooltip": "/option/index.php",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -315,7 +267,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/tbody/index.php"
+            "/option/index.php"
         ]
     }
 }

@@ -27,7 +27,7 @@ elementName: time
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a <strong>time</strong> on a 24h clock.</p>
+      <p>Определяет <strong>время</strong> по 24-часовому формату.</p>
 
     </div>
   </header>
@@ -38,8 +38,8 @@ elementName: time
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#time-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output">The game starts at <time datetime="2017-04-29T19:00">19:00</time>.</div>
-          <div id="time-example-0-code" class="example-code">{% highlight html %}The game starts at <time datetime="2017-04-29T19:00">19:00</time>.{% endhighlight %}</div>
+            <div class="example-output">Игра начнётся в <time datetime="2017-04-29T19:00">19:00</time>.</div>
+          <div id="time-example-0-code" class="example-code">{% highlight html %}Игра начнётся в <time datetime="2017-04-29T19:00">19:00</time>.{% endhighlight %}</div>
         </article>
       </div>
 
@@ -51,7 +51,7 @@ elementName: time
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines the time and date.</p>
+          <p>Определяет время и дату.</p>
 
         </div>
       </header>
@@ -65,7 +65,7 @@ elementName: time
                   </code>
                 </h4>
               <div class="value-description">
-                <p>The value needs to be a valid <a href="https://www.w3.org/TR/html51/infrastructure.html#dates-and-times">time string</a>.</p>
+                <p>Значение должно быть допустимого <a href="https://www.w3.org/TR/html51/infrastructure.html#dates-and-times">формата времени</a>.</p>
 
               </div>
             </header>

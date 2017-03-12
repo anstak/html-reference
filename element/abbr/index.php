@@ -26,7 +26,7 @@ elementName: abbr
       </a>
     </h2>
     <div class="element-description">
-      <p>Определяет <strong>аббревиатура</strong>, и, как правило, включает ее полное описание.</p>
+      <p>Определяет <strong>аббревиатуру</strong>, и её полное описание.</p>
 
     </div>
   </header>
@@ -58,7 +58,7 @@ elementName: abbr
               </div>
             </header>
             <aside class="value-preview">
-              <div class="value-output"><abbr title="Хтмл">HTML-код</abbr></div>
+              <div class="value-output"><abbr title="HyperText Markup Language">HTML-код</abbr></div>
             </aside>
           </article>
       </div>

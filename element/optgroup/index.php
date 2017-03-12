@@ -165,7 +165,7 @@ elementName: optgroup
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Отключает все <strong>options</strong> группы.</p>
+          <p>Отключает все элементы <code>&lt;option&gt;</code> группы.</p>
 
             <strong class="attribute-is-novalue">Значение не обязательно.</strong>
         </div>

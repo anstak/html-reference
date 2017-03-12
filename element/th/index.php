@@ -23,7 +23,7 @@ elementName: th
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a <strong>table header</strong>.</p>
+      <p>Определяет <strong>заголовок таблицы</strong>.</p>
 
     </div>
   </header>
@@ -37,59 +37,59 @@ elementName: th
             <div class="example-output"><table>
   <thead>
     <tr>
-      <th colspan="4">World Cup winners</th>
+      <th colspan="4">Победители Кубка Мира</th>
     </tr>
     <tr>
-      <td colspan="2">Location</td>
-      <td colspan="2">Score</td>
+      <td colspan="2">Местоположение</td>
+      <td colspan="2">Счёт</td>
     </tr>
     <tr>
-      <td>Continent</td>
-      <td>Country</td>
-      <td>First</td>
-      <td>Total</td>
+      <td>Континент</td>
+      <td>Страна</td>
+      <td>Первая победа</td>
+      <td>Всего побед</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">South America</td>
-      <td>Uruguay</td>
+      <td rowspan="3">Южная Америка</td>
+      <td>Уругвай</td>
       <td>1930</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>Brazil</td>
+      <td>Бразилия</td>
       <td>1958</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>Argentina</td>
+      <td>Аргентина</td>
       <td>1978</td>
       <td>2</td>
     </tr>
     <tr>
-      <td rowspan="5">Europe</td>
-      <td>Italy</td>
+      <td rowspan="5">Европа</td>
+      <td>Италия</td>
       <td>1934</td>
       <td>4</td>
     </tr>
     <tr>
-      <td>Germany</td>
+      <td>Германия</td>
       <td>1954</td>
       <td>4</td>
     </tr>
     <tr>
-      <td>England</td>
+      <td>Англия</td>
       <td>1966</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>France</td>
+      <td>Франция</td>
       <td>1998</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>Spain</td>
+      <td>Испания</td>
       <td>2010</td>
       <td>1</td>
     </tr>
@@ -98,59 +98,59 @@ elementName: th
           <div id="th-example-0-code" class="example-code">{% highlight html %}<table>
   <thead>
     <tr>
-      <th colspan="4">World Cup winners</th>
+      <th colspan="4">Победители Кубка Мира</th>
     </tr>
     <tr>
-      <td colspan="2">Location</td>
-      <td colspan="2">Score</td>
+      <td colspan="2">Местоположение</td>
+      <td colspan="2">Счёт</td>
     </tr>
     <tr>
-      <td>Continent</td>
-      <td>Country</td>
-      <td>First</td>
-      <td>Total</td>
+      <td>Континент</td>
+      <td>Страна</td>
+      <td>Первая победа</td>
+      <td>Всего побед</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">South America</td>
-      <td>Uruguay</td>
+      <td rowspan="3">Южная Америка</td>
+      <td>Уругвай</td>
       <td>1930</td>
       <td>2</td>
     </tr>
     <tr>
-      <td>Brazil</td>
+      <td>Бразилия</td>
       <td>1958</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>Argentina</td>
+      <td>Аргентина</td>
       <td>1978</td>
       <td>2</td>
     </tr>
     <tr>
-      <td rowspan="5">Europe</td>
-      <td>Italy</td>
+      <td rowspan="5">Европа</td>
+      <td>Италия</td>
       <td>1934</td>
       <td>4</td>
     </tr>
     <tr>
-      <td>Germany</td>
+      <td>Германия</td>
       <td>1954</td>
       <td>4</td>
     </tr>
     <tr>
-      <td>England</td>
+      <td>Англия</td>
       <td>1966</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>France</td>
+      <td>Франция</td>
       <td>1998</td>
       <td>1</td>
     </tr>
     <tr>
-      <td>Spain</td>
+      <td>Испания</td>
       <td>2010</td>
       <td>1</td>
     </tr>
@@ -167,7 +167,7 @@ elementName: th
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines how many columns a cell should span across.</p>
+          <p>Определяет, сколько столбцов должна охватывать ячейка.</p>
 
         </div>
       </header>
@@ -181,7 +181,7 @@ elementName: th
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use any <strong>integer</strong>.</p>
+                <p>Вы можете использовать только <strong>целые числа</strong>.</p>
 
               </div>
             </header>
@@ -199,7 +199,7 @@ elementName: th
           </code>
         </h3>
         <div class="attribute-description">
-          <p>Defines how many rows a cell should span across.</p>
+          <p>Определяет, сколько строк должна охватывать ячейка.</p>
 
         </div>
       </header>
@@ -213,7 +213,7 @@ elementName: th
                   </code>
                 </h4>
               <div class="value-description">
-                <p>You can use any <strong>integer</strong>.</p>
+                <p>Вы можете использовать только <strong>целые числа</strong>.</p>
 
               </div>
             </header>

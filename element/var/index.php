@@ -26,7 +26,7 @@ elementName: var
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines a <strong>variable</strong> in a mathematical or programming expression.</p>
+      <p>Определяет <strong>переменную</strong> в математическом или программируемом выражении.</p>
 
     </div>
   </header>
@@ -37,8 +37,8 @@ elementName: var
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#var-example-0-code">Копировать</a>
         </p>
         <article class="example-preview" translate="no">
-            <div class="example-output">The value of <var>x</var> is 12.</div>
-          <div id="var-example-0-code" class="example-code">{% highlight html %}The value of <var>x</var> is 12.{% endhighlight %}</div>
+            <div class="example-output">Значение переменной <var>x</var> равняется 12.</div>
+          <div id="var-example-0-code" class="example-code">{% highlight html %}Значение переменной <var>x</var> равняется 12.{% endhighlight %}</div>
         </article>
       </div>
 

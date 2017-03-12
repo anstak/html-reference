@@ -23,7 +23,7 @@ elementName: track
       </a>
     </h2>
     <div class="element-description">
-      <p>Defines <strong>text tracks</strong> (like subtitles) for <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> elements.</p>
+      <p>Определяет <strong>звуковые дорожки</strong> (например субтитры) для <code>&lt;audio&gt;</code> и <code>&lt;video&gt;</code> элементов.</p>
 
     </div>
   </header>

@@ -26,7 +26,7 @@ elementName: a
       </a>
     </h2>
     <div class="element-description">
-      <p>Creates a <strong>link</strong> to a URL: a web page, a section within a page, an email address... Also called the <code>anchor</code> element, where the <code>a</code> comes from.</p>
+      <p>Создаёт <strong>ссылку</strong> по URL-адресу на: веб-страницу, раздел веб-страницы, адрес электронной почты... Так же называется элементом <code>anchor</code>, откуда и пошло <code>a</code>.</p>
 
     </div>
   </header>
@@ -37,8 +37,8 @@ elementName: a
           <a class="example-clipboard" data-tooltip="Скопировать код" data-clipboard-target="#a-example-0-code">Копировать</a>
         </p>
         <article class="example-preview">
-            <div class="example-output"><a href="https://atomcss.ru">HTML Ссылка</a></div>
-          <div id="a-example-0-code" class="example-code">{% highlight html %}<a href="https://atomcss.ru">HTML Ссылка</a>{% endhighlight %}</div>
+            <div class="example-output"><a href="https://atomcss.ru">HTML Справочник</a></div>
+          <div id="a-example-0-code" class="example-code">{% highlight html %}<a href="https://atomcss.ru">HTML Справочник</a>{% endhighlight %}</div>
         </article>
       </div>
 
@@ -48,7 +48,7 @@ href
 </code></h3>
 <div class="attribute-description">
 
-Определяет цель ссылки.
+Определяет URL-адрес по которому можно перейти. <br>
 
 <strong class="attribute-is-required">Обязательный аттрибут.</strong>
 
@@ -60,29 +60,29 @@ href
 </code></h4>
 <div class="value-description">
 
-Вы можете передать <strong>абсолютный</strong> URL.
+Вы можете передать <strong>абсолютный</strong> URL-адрес.
 
 </div>
 </header><aside class="value-preview">
-<div class="value-output"><a href="https://atomcss.ru">HTML Ссылка</a></div>
+<div class="value-output"><a href="https://atomcss.ru">HTML Справочник</a></div>
 </aside></article><article id="a-href-elementdiv" class="value"><header class="value-header">
 <h4 class="value-name"><code class="tag" data-tooltip="Скопировать href=&quot;/element/div&quot;" data-clipboard-text="href=&quot;/element/div&quot;">
 "/element/div"
 </code></h4>
 <div class="value-description">
 
-Вы можете передать URL <strong>относительно</strong> к корневой домен.
+Вы можете передать URL-адрес <strong>относительно</strong> корневого домена.
 
 </div>
 </header><aside class="value-preview">
-<div class="value-output"><a href="/element/div">HTML Ссылка</a></div>
+<div class="value-output"><a href="/element/div">HTML Справочник</a></div>
 </aside></article><article id="a-href-footer" class="value"><header class="value-header">
 <h4 class="value-name"><code class="tag" data-tooltip="Скопировать href=&quot;#footer&quot;" data-clipboard-text="href=&quot;#footer&quot;">
 "#footer"
 </code></h4>
 <div class="value-description">
 
-Вы можете настроить таргетинг элемент в пределах <em>одной</em> страницы. Здесь мы целевой элемент<code>&lt;div id="footer"&gt;</code>
+Вы можете указать ссылку на элемент в пределах <em>одной и той же</em> веб-страницы. Здесь мы делаем ссылку на элемент<code>&lt;div id="footer"&gt;</code>
 
 </div>
 </header><aside class="value-preview">
@@ -93,7 +93,7 @@ href
 </code></h4>
 <div class="value-description">
 
-Вы можете использовать <code>mailto</code>протокол. При нажатии на ссылку откроется почтовый клиент пользователя.
+Вы можете использовать протокол <code>mailto</code>. При нажатии на ссылку откроется почтовый клиент пользователя.
 
 </div>
 </header><aside class="value-preview">
@@ -105,7 +105,7 @@ target
 </code></h3>
 <div class="attribute-description">
 
-Определяет, в какой вкладке или окне нажатая ссылка будет отображаться.
+Определяет, в какой вкладке или окне будет открыта нажатая ссылка.
 
 </div>
 </header>
@@ -115,7 +115,7 @@ target
 </code></h4>
 <div class="value-description">
 
-Открыть в новом контексте просмотра, который обычно является <strong>новая вкладка</strong> .
+Открывает в новом окне браузера, которое обычно является <strong>новой вкладкой</strong> .
 
 </div>
 </header><aside class="value-preview">
@@ -126,7 +126,7 @@ target
 </code></h4>
 <div class="value-description">
 
-Открытие в текущей вкладке.
+Открывает в текущей вкладке.
 
 </div>
 </header><aside class="value-preview">
@@ -137,7 +137,7 @@ target
 </code></h4>
 <div class="value-description">
 
-Открытие в контексте просмотра родительской, или <code>_self</code>там нет.
+Открывает в родительском всплывающем окне, используется <code>_self</code> если такого нет.
 
 </div>
 </header><aside class="value-preview">
@@ -148,7 +148,7 @@ target
 </code></h4>
 <div class="value-description">
 
-Открывает в верхнем контексте просмотра, или <code>_self</code>там нет.
+Открывает в верхнем всплывающем окне, используется <code>_self</code> если такого нет.
 
 </div>
 </header><aside class="value-preview">
@@ -160,7 +160,7 @@ rel
 </code></h3>
 <div class="attribute-description">
 
-Определяет, как целевая ссылка относится к текущей веб-страницы.
+Определяет, какое отношение ссылка имеет к текущей веб-странице.
 
 </div>
 </header>
@@ -170,7 +170,7 @@ rel
 </code></h4>
 <div class="value-description">
 
-Мишень не связаны между собой. Используется для внешних сайтов обычно.
+Ссылки не связаны между собой. Обычно используется для внешних веб-сайтов.
 
 </div>
 </header><aside class="value-preview">

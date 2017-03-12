@@ -27,7 +27,7 @@ elementName: video
       </a>
     </h2>
     <div class="element-description">
-      <p>Allows to embed an video clip into a web page.</p>
+      <p>Позволяет вставлять видеоклип в веб-страницу.</p>
 
     </div>
   </header>
@@ -41,7 +41,7 @@ elementName: video
           </code>
         </h3>
         <div class="attribute-description">
-          <p>HelloWorld</p>
+          <p>Привет Мир</p>
 
         </div>
       </header>
@@ -57,7 +57,7 @@ elementName: video
           </code>
         </h3>
         <div class="attribute-description">
-          <p>HelloWorld</p>
+          <p>Привет Мир</p>
 
         </div>
       </header>
