@@ -1503,6 +1503,9 @@ pre {
       margin: 0; }
       .main-navigation .menu_new > li.home-page > a {
         padding-left: 54px; }
+        @media (max-width: 1199px) {
+          .main-navigation .menu_new > li.home-page > a {
+            padding-left: 46px; } }
       .main-navigation .menu_new > li.home-page > a:before {
         content: "";
         background: url(https://atomcss.ru/wp-content/uploads/2017/03/favicon.png) left center no-repeat;
@@ -1511,14 +1514,20 @@ pre {
         position: absolute;
         left: 20px;
         top: 0; }
+        @media (max-width: 1199px) {
+          .main-navigation .menu_new > li.home-page > a:before {
+            left: 9px; } }
       .main-navigation .menu_new > li > a {
         display: block;
         padding-bottom: 0;
         border: none;
-        padding: 14px 36px;
+        padding: 14px 30px;
         font-size: 14px;
         position: relative;
         text-align: center; }
+        @media (max-width: 1199px) {
+          .main-navigation .menu_new > li > a {
+            padding: 12px 17px; } }
         .main-navigation .menu_new > li > a i {
           display: block;
           font-size: 47px;
@@ -1529,13 +1538,13 @@ pre {
           -webkit-transition: color 0.3s;
           -o-transition: color 0.3s;
           transition: color 0.3s; }
-      .main-navigation .menu_new > li .active-link, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-ancestor > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-ancestor > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-parent > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-parent > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_parent > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_ancest > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-item > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_item > a, .htmlref .main-navigation .menu_new > li.htmlref-page > a, .job .main-navigation .menu_new > li.job-page > a, .single-job_listing .main-navigation .menu_new > li.job-page > a {
+      .main-navigation .menu_new > li .active-link, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-ancestor > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-ancestor > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-parent > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-parent > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_parent > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_ancest > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-item > a, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_item > a, .htmlref .main-navigation .menu_new > li.htmlref-page > a, .job .main-navigation .menu_new > li.job-page > a, .single-job_listing .main-navigation .menu_new > li.job-page > a, .job .main-navigation .menu_new > li.vakansii > a, .single-job_listing .main-navigation .menu_new > li.vakansii > a {
         position: relative;
         color: #fff;
         background-color: #2895f1; }
-        .main-navigation .menu_new > li .active-link > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-ancestor > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-ancestor > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-parent > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-parent > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_parent > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_ancest > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-item > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_item > a > i, .htmlref .main-navigation .menu_new > li.htmlref-page > a > i, .job .main-navigation .menu_new > li.job-page > a > i, .single-job_listing .main-navigation .menu_new > li.job-page > a > i {
+        .main-navigation .menu_new > li .active-link > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-ancestor > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-ancestor > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-parent > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-parent > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_parent > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_ancest > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-item > a > i, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_item > a > i, .htmlref .main-navigation .menu_new > li.htmlref-page > a > i, .job .main-navigation .menu_new > li.job-page > a > i, .single-job_listing .main-navigation .menu_new > li.job-page > a > i, .job .main-navigation .menu_new > li.vakansii > a > i, .single-job_listing .main-navigation .menu_new > li.vakansii > a > i {
           color: #fff; }
-        .main-navigation .menu_new > li .active-link:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-ancestor > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-ancestor > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-parent > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-parent > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_parent > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_ancest > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-item > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_item > a:after, .htmlref .main-navigation .menu_new > li.htmlref-page > a:after, .job .main-navigation .menu_new > li.job-page > a:after, .single-job_listing .main-navigation .menu_new > li.job-page > a:after {
+        .main-navigation .menu_new > li .active-link:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-ancestor > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-ancestor > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-parent > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-page-parent > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_parent > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_ancest > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current-menu-item > a:after, body:not(.htmlref):not(.single-job_listing):not(.job) .main-navigation .menu_new > li.current_page_item > a:after, .htmlref .main-navigation .menu_new > li.htmlref-page > a:after, .job .main-navigation .menu_new > li.job-page > a:after, .single-job_listing .main-navigation .menu_new > li.job-page > a:after, .job .main-navigation .menu_new > li.vakansii > a:after, .single-job_listing .main-navigation .menu_new > li.vakansii > a:after {
           position: absolute;
           display: block;
           content: "";
@@ -1841,6 +1850,20 @@ pre {
       margin-top: -52px;
       right: 0;
       width: 100vw; } }
+
+@media (min-width: 991px) {
+  .middle_text {
+    overflow: hidden;
+    white-space: nowrap;
+    display: block; }
+    li.vakansii .middle_text {
+      width: 70px; }
+    li.blog .middle_text {
+      width: 52px; }
+    li.uroki .middle_text {
+      width: 48px; }
+    li.tools .middle_text {
+      width: 100px; } }
 
 .input,
 .textarea,

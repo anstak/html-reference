@@ -16,7 +16,7 @@ route: index
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>{{site.title}} - {{site.description}}</title>
+    <title>{{site.title}} | {{site.description}}</title>
     <script type='text/javascript' src='https://atomcss.ru/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
     <link rel="stylesheet" type="text/css" href="{{site.url}}/css/website.css">
 
@@ -52,7 +52,7 @@ route: index
       get_template_part('templates/header');
     ?>
     <div class="container">
-      <h1>Справочник HTML тегов</h1>
+      <h1>HTML Справочник</h1>
     </div>
     <main class="index">
       <div class="index-collections">
